@@ -1,4 +1,5 @@
 import sys
+import json
 import steamjson
 
 if __name__ == "__main__":
@@ -7,4 +8,5 @@ if __name__ == "__main__":
 
     print("--start--")
     steamjson = steamjson.SteamJson(leagueid, apikey)
+    print(json.dumps(steamjson.matches, indent = 4))
     print("--end--")
