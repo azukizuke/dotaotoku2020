@@ -2,6 +2,7 @@ import sys
 import url
 import json
 import copy
+from pathlib import Path
 
 
 class SteamJson:
@@ -13,6 +14,7 @@ class SteamJson:
     _STEAMAPI_REQUEST = "&matches_requested="
     _STEAMAPI_MAXREQUEST = 300
     _STEAMAPI_STARTID = "&start_at_match_id="
+    _FILENAME_SUFFIX = "_steamapi.json"
 
     def __init__(self, leagueid, apikey):
         self.matches = {}
@@ -66,7 +68,12 @@ class SteamJson:
         for match in matches:
             if match['lobby_type'] == 1:
                 self.matches[match['match_id']] = copy.deepcopy(match)
-        pass
+
+    def write_json(self,folder_path):
+        filename = str(self._leagueid) + self._FILENAME_SUFFIX
+        filepath = folder_path / filename
+        with open(filepath, mode = 'w') as f:
+            json.dump(self.matches, f, indent=4)
 
 
 if __name__ == "__main__":
