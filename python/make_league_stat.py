@@ -12,7 +12,9 @@ PARENT_LEAGUE_FOLDER_PATH = (Path(__file__).resolve().parent.parent
 # MAIN
 if __name__ == "__main__":
     leagueid = sys.argv[1]
-    apikey = sys.argv[2]
+    apikey_steam = sys.argv[2]
+    apikey_opendota = sys.argv[3]
+    startid = sys.argv[4]
 
     print("--start--")
     # crate folder
@@ -20,10 +22,14 @@ if __name__ == "__main__":
     league_folder.mkdir(exist_ok=True)
 
     # steam
-    steamjson = steamjson.SteamJson(leagueid, apikey)
+    steamjson = steamjson.SteamJson(leagueid, apikey_steam, startid)
     steamjson.write_json(league_folder)
 
     # opendota
+    opendotajson = opendotajson.OpendotaJson(leagueid,
+                                             apikey_opendota,
+                                             steamjson)
+    opendotajson.write_json(league_folder)
 
     # make stat
 

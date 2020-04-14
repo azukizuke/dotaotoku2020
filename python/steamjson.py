@@ -16,20 +16,21 @@ class SteamJson:
     _STEAMAPI_STARTID = "&start_at_match_id="
     _FILENAME_SUFFIX = "_steamapi.json"
 
-    def __init__(self, leagueid, apikey):
+    def __init__(self, leagueid, apikey, start_id):
         self.matches = {}
         self._leagueid = leagueid
         self._apikey = apikey
+        self._start_id = start_id
         ####
         self.make_matchid_json()
 
     def make_matchid_json(self):
         is_first = True
-        start_id = -1
+        next_id = -1
         while(True):
             has_next = False
             result = {}
-            _url = self._make_steam_url(start_id)
+            _url = self._make_steam_url(next_id)
             result = url.get_url(_url)
             sort_matches = self._sort_matches_api(result)
 
@@ -37,7 +38,7 @@ class SteamJson:
                 break
 
             self._add_match(sort_matches)
-            start_id = sort_matches[-1]['match_id']
+            next_id = sort_matches[-1]['match_id']
 
     def _make_steam_url(self, start_id=-1):
         url = (self._STEAMAPI_BASE
@@ -67,7 +68,8 @@ class SteamJson:
     def _add_match(self, matches):
         for match in matches:
             if match['lobby_type'] == 1:
-                self.matches[match['match_id']] = copy.deepcopy(match)
+                if int(self._start_id) <= int(match['match_id']):
+                    self.matches[match['match_id']] = copy.deepcopy(match)
 
     def write_json(self, folder_path):
         filename = str(self._leagueid) + self._FILENAME_SUFFIX
