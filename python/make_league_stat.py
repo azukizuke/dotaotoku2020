@@ -1,13 +1,15 @@
 import sys
 import json
-import steamjson
 from pathlib import Path
+import steamjson
+import opendotajson
 
-#### CONST 
+# CONST
 PARENT_LEAGUE_FOLDER = "leaguedata"
-PARENT_LEAGUE_FOLDER_PATH = Path(__file__).resolve().parent.parent / PARENT_LEAGUE_FOLDER
+PARENT_LEAGUE_FOLDER_PATH = (Path(__file__).resolve().parent.parent
+                             / PARENT_LEAGUE_FOLDER)
 
-#### MAIN
+# MAIN
 if __name__ == "__main__":
     leagueid = sys.argv[1]
     apikey = sys.argv[2]
@@ -15,7 +17,7 @@ if __name__ == "__main__":
     print("--start--")
     # crate folder
     league_folder = PARENT_LEAGUE_FOLDER_PATH / leagueid
-    league_folder.mkdir(exist_ok = True)
+    league_folder.mkdir(exist_ok=True)
 
     # steam
     steamjson = steamjson.SteamJson(leagueid, apikey)
@@ -26,5 +28,5 @@ if __name__ == "__main__":
     # make stat
 
     # debug
-    #print(json.dumps(steamjson.matches, indent = 4))
+    # print(json.dumps(steamjson.matches, indent = 4))
     print("--end--")

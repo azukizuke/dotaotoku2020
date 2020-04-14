@@ -69,10 +69,10 @@ class SteamJson:
             if match['lobby_type'] == 1:
                 self.matches[match['match_id']] = copy.deepcopy(match)
 
-    def write_json(self,folder_path):
+    def write_json(self, folder_path):
         filename = str(self._leagueid) + self._FILENAME_SUFFIX
         filepath = folder_path / filename
-        with open(filepath, mode = 'w') as f:
+        with open(filepath, mode='w') as f:
             json.dump(self.matches, f, indent=4)
 
 
