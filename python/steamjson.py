@@ -77,6 +77,8 @@ class SteamJson:
         with open(filepath, mode='w') as f:
             json.dump(self.matches, f, indent=4)
 
+    def get_matches(self):
+        return self.matches
 
 if __name__ == "__main__":
     pass

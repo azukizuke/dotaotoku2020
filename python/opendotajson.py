@@ -18,8 +18,7 @@ class OpendotaJson:
         self._make_details()
 
     def _make_details(self):
-        # kokoha aruteido getter poku shitahouga iikamo amarinimo onazari
-        for matchid in self._steamjson.matches.keys():
+        for matchid in self._steamjson.get_matches().keys():
             _url = self._make_url(matchid)
             result = url.get_url(_url)
             self._add_detail(result)
@@ -39,6 +38,9 @@ class OpendotaJson:
         filepath = folder_path / filename
         with open(filepath, mode='w') as f:
             json.dump(self.details, f, indent=4)
+
+    def get_details(self):
+        return self.details
 
 if __name__ == '__main__':
     pass
