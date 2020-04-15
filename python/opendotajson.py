@@ -42,5 +42,6 @@ class OpendotaJson:
     def get_details(self):
         return self.details
 
+
 if __name__ == '__main__':
     pass

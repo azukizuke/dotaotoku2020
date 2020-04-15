@@ -47,6 +47,7 @@ if __name__ == "__main__":
 
     # make stat
     league = league.League(leagueid, name, opendotajson, indexjson)
+    league.write_json(league_folder)
 
     # debug
     # print(json.dumps(steamjson.matches, indent = 4))
