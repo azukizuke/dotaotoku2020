@@ -14,6 +14,7 @@ class League:
         self._herojson = {}
         # init league stats
         self._pickbans = {}
+        self._pickbans_ranking = {}
         self.leaguejson = {}
 
         # init dictionary
@@ -32,6 +33,7 @@ class League:
 
         # make_json
         self._make_leaguejson()
+        self._make_herojson()
 
     def _make_league_pickbans(self):
         # order rootin
@@ -41,7 +43,6 @@ class League:
     def _make_order_pickbans(self, order):
         pickbans = {}
         for heroid, hero in self._herojson.items():
-            print(order, heroid, hero.get_pickbans(order))
             pickbans[str(heroid)] = hero.get_pickbans(order)
         self._pickbans[str(order)] = pickbans
 
@@ -56,9 +57,13 @@ class League:
     def _make_leaguejson(self):
         self.leaguejson['pickbans'] = self._pickbans
 
+    def _make_herojson(self):
+        self.leaguejson['heroes'] = {}
+        for heroid, hero in self._herojson.items():
+            self.leaguejson['heroes'][heroid] = hero.make_herojson()
+
     def write_json(self, folder_path):
-        filename  = str(self._leagueid) + self._FILENAME_SUFFIX
+        filename = str(self._leagueid) + self._FILENAME_SUFFIX
         filepath = folder_path / filename
         with open(filepath, mode='w') as f:
             json.dump(self.leaguejson, f, indent=4)
-

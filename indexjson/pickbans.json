@@ -1,90 +1,126 @@
 {
     "0" : {
         "is_pick" : false,
-	"type" : "ban1"
+	    "type" : "ban1"
     },
     "1" : {
         "is_pick" : false,
-	"type" : "ban1"
+	    "type" : "ban1"
     },
     "2" : {
         "is_pick" : false,
-	"type" : "ban1"
+	    "type" : "ban1"
     },
     "3" : {
         "is_pick" : false,
-	"type" : "ban1"
+	    "type" : "ban1"
     },
     "4" : {
         "is_pick" : false,
-	"type" : "ban1"
+	    "type" : "ban1"
     },
     "5" : {
         "is_pick" : false,
-	"type" : "ban1"
+	    "type" : "ban1"
     },
     "6" : {
         "is_pick" : false,
-	"type" : "ban1"
+	    "type" : "ban1"
     },
     "7" : {
         "is_pick" : false,
-	"type" : "ban1"
+	    "type" : "ban1"
     },
     "8" : {
         "is_pick" : true,
-	"type" : "pick1"
+	    "type" : "pick1"
     },
     "9" : {
         "is_pick" : true,
-	"type" : "pick1"
+	    "type" : "pick1"
     },
     "10" : {
         "is_pick" : true,
-	"type" : "pick1"
+	    "type" : "pick1"
     },
     "11" : {
         "is_pick" : true,
-	"type" : "pick1"
+	    "type" : "pick1"
     },
     "12" : {
         "is_pick" : false,
-	"type" : "ban2"
+	    "type" : "ban2"
     },
     "13" : {
         "is_pick" : false,
-	"type" : "ban2"
+	    "type" : "ban2"
     },
     "14" : {
         "is_pick" : true,
-	"type" : "pick2"
+	    "type" : "pick2"
     },
     "15" : {
         "is_pick" : true,
-	"type" : "pick2"
+	    "type" : "pick2"
     },
     "16" : {
         "is_pick" : true,
-	"type" : "pick2"
+	    "type" : "pick2"
     },
     "17" : {
         "is_pick" : true,
-	"type" : "pick2"
+	    "type" : "pick2"
     },
     "18" : {
         "is_pick" : false,
-	"type" : "ban3"
+	    "type" : "ban3"
     },
     "19" : {
         "is_pick" : false,
-	"type" : "ban3"
+	    "type" : "ban3"
     },
     "20" : {
         "is_pick" : true,
-	"type" : "pick3"
+	    "type" : "pick3"
     },
     "21" : {
         "is_pick" : true,
-	"type" : "pick3"
+	    "type" : "pick3"
+    },
+    "all" : {
+        "is_pick" : null,
+	    "type" : null
+    },
+    "pick" : {
+        "is_pick" : null,
+	    "type" : null
+    },
+    "ban" : {
+        "is_pick" : null,
+	    "type" : null
+    },
+    "pick1" : {
+        "is_pick" : null,
+	    "type" : null
+    },
+    "pick2" : {
+        "is_pick" : null,
+	    "type" : null
+    },
+    "pick3" : {
+        "is_pick" : null,
+	    "type" : null
+    },
+    "ban1" : {
+        "is_pick" : null,
+	    "type" : null
+    },
+    "ban2" : {
+        "is_pick" : null,
+	    "type" : null
+    },
+    "ban3" : {
+        "is_pick" : null,
+	    "type" : null
     }
 }

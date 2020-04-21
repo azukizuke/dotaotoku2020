@@ -13,6 +13,7 @@ def get_url(url, timeout=300, retry_time=10):
     while True:
         try:
             r = requests.get(url, headers=headers, timeout=(timeout, timeout))
+            print("GET")
             return(r.json())
         except Exception as e:
             print("Unexpectedf error")
