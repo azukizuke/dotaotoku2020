@@ -73,7 +73,6 @@ if __name__ == "__main__":
 
     # make all league json
     all_league_json = read_all_league_json(PARENT_LEAGUE_FOLDER_PATH, ALL_LEAGUE_JSON_FILENAME)
-    print(json.dumps(all_league_json))
     all_league_json[leagueid] = league.get_leaguejson()
     write_all_league_json(PARENT_LEAGUE_FOLDER_PATH, ALL_LEAGUE_JSON_FILENAME, all_league_json)
     print("--end--")
