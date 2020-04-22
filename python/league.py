@@ -69,3 +69,6 @@ class League:
         filepath = folder_path / filename
         with open(filepath, mode='w') as f:
             json.dump(self.leaguejson, f, indent=4)
+
+    def get_leaguejson(self):
+        return self.leaguejson

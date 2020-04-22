@@ -34,11 +34,10 @@ class SteamJson:
             result = url.get_url(_url)
             sort_matches = self._sort_matches_api(result)
 
-            if not self._has_next(sort_matches):
-                break
-
             self._add_match(sort_matches)
             next_id = sort_matches[-1]['match_id']
+            if not self._has_next(sort_matches):
+                break
 
     def _make_steam_url(self, start_id=-1):
         url = (self._STEAMAPI_BASE
@@ -60,7 +59,7 @@ class SteamJson:
         return(sort_matches)
 
     def _has_next(self, matches):
-        if len(matches) < 1:
+        if len(matches) <= 1:
             return False
         else:
             return True
