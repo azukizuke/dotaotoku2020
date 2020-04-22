@@ -16,7 +16,7 @@ class Hero:
 
     def _init_imagefile(self):
         original_imagefile = self._indexjson.opendota_heroes[self.heroid]['img']
-        imagefile = original_imagefile.split('/')[-1].rstrip('?')
+        imagefile = original_imagefile.split('/')[-1].rstrip('?').split('.')[0]
         return imagefile
 
 

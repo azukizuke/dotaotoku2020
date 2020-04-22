@@ -3796,7 +3796,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "antimage_full.png"
+            "imagefile": "antimage_full"
         },
         "2": {
             "heroid": "2",
@@ -3841,7 +3841,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "axe_full.png"
+            "imagefile": "axe_full"
         },
         "3": {
             "heroid": "3",
@@ -3886,7 +3886,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "bane_full.png"
+            "imagefile": "bane_full"
         },
         "4": {
             "heroid": "4",
@@ -3931,7 +3931,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "bloodseeker_full.png"
+            "imagefile": "bloodseeker_full"
         },
         "5": {
             "heroid": "5",
@@ -3976,7 +3976,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "crystal_maiden_full.png"
+            "imagefile": "crystal_maiden_full"
         },
         "6": {
             "heroid": "6",
@@ -4021,7 +4021,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "drow_ranger_full.png"
+            "imagefile": "drow_ranger_full"
         },
         "7": {
             "heroid": "7",
@@ -4066,7 +4066,7 @@
                 "pos4": true,
                 "pos5": true
             },
-            "imagefile": "earthshaker_full.png"
+            "imagefile": "earthshaker_full"
         },
         "8": {
             "heroid": "8",
@@ -4111,7 +4111,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "juggernaut_full.png"
+            "imagefile": "juggernaut_full"
         },
         "9": {
             "heroid": "9",
@@ -4156,7 +4156,7 @@
                 "pos4": true,
                 "pos5": false
             },
-            "imagefile": "mirana_full.png"
+            "imagefile": "mirana_full"
         },
         "10": {
             "heroid": "10",
@@ -4201,7 +4201,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "morphling_full.png"
+            "imagefile": "morphling_full"
         },
         "11": {
             "heroid": "11",
@@ -4246,7 +4246,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "nevermore_full.png"
+            "imagefile": "nevermore_full"
         },
         "12": {
             "heroid": "12",
@@ -4291,7 +4291,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "phantom_lancer_full.png"
+            "imagefile": "phantom_lancer_full"
         },
         "13": {
             "heroid": "13",
@@ -4336,7 +4336,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "puck_full.png"
+            "imagefile": "puck_full"
         },
         "14": {
             "heroid": "14",
@@ -4381,7 +4381,7 @@
                 "pos4": true,
                 "pos5": false
             },
-            "imagefile": "pudge_full.png"
+            "imagefile": "pudge_full"
         },
         "15": {
             "heroid": "15",
@@ -4426,7 +4426,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "razor_full.png"
+            "imagefile": "razor_full"
         },
         "16": {
             "heroid": "16",
@@ -4471,7 +4471,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "sand_king_full.png"
+            "imagefile": "sand_king_full"
         },
         "17": {
             "heroid": "17",
@@ -4516,7 +4516,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "storm_spirit_full.png"
+            "imagefile": "storm_spirit_full"
         },
         "18": {
             "heroid": "18",
@@ -4561,7 +4561,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "sven_full.png"
+            "imagefile": "sven_full"
         },
         "19": {
             "heroid": "19",
@@ -4606,7 +4606,7 @@
                 "pos4": true,
                 "pos5": false
             },
-            "imagefile": "tiny_full.png"
+            "imagefile": "tiny_full"
         },
         "20": {
             "heroid": "20",
@@ -4651,7 +4651,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "vengefulspirit_full.png"
+            "imagefile": "vengefulspirit_full"
         },
         "21": {
             "heroid": "21",
@@ -4696,7 +4696,7 @@
                 "pos4": true,
                 "pos5": false
             },
-            "imagefile": "windrunner_full.png"
+            "imagefile": "windrunner_full"
         },
         "22": {
             "heroid": "22",
@@ -4741,7 +4741,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "zuus_full.png"
+            "imagefile": "zuus_full"
         },
         "23": {
             "heroid": "23",
@@ -4786,7 +4786,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "kunkka_full.png"
+            "imagefile": "kunkka_full"
         },
         "25": {
             "heroid": "25",
@@ -4831,7 +4831,7 @@
                 "pos4": true,
                 "pos5": false
             },
-            "imagefile": "lina_full.png"
+            "imagefile": "lina_full"
         },
         "26": {
             "heroid": "26",
@@ -4876,7 +4876,7 @@
                 "pos4": true,
                 "pos5": true
             },
-            "imagefile": "lion_full.png"
+            "imagefile": "lion_full"
         },
         "27": {
             "heroid": "27",
@@ -4921,7 +4921,7 @@
                 "pos4": true,
                 "pos5": true
             },
-            "imagefile": "shadow_shaman_full.png"
+            "imagefile": "shadow_shaman_full"
         },
         "28": {
             "heroid": "28",
@@ -4966,7 +4966,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "slardar_full.png"
+            "imagefile": "slardar_full"
         },
         "29": {
             "heroid": "29",
@@ -5011,7 +5011,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "tidehunter_full.png"
+            "imagefile": "tidehunter_full"
         },
         "30": {
             "heroid": "30",
@@ -5056,7 +5056,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "witch_doctor_full.png"
+            "imagefile": "witch_doctor_full"
         },
         "31": {
             "heroid": "31",
@@ -5101,7 +5101,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "lich_full.png"
+            "imagefile": "lich_full"
         },
         "32": {
             "heroid": "32",
@@ -5146,7 +5146,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "riki_full.png"
+            "imagefile": "riki_full"
         },
         "33": {
             "heroid": "33",
@@ -5191,7 +5191,7 @@
                 "pos4": true,
                 "pos5": false
             },
-            "imagefile": "enigma_full.png"
+            "imagefile": "enigma_full"
         },
         "34": {
             "heroid": "34",
@@ -5236,7 +5236,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "tinker_full.png"
+            "imagefile": "tinker_full"
         },
         "35": {
             "heroid": "35",
@@ -5281,7 +5281,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "sniper_full.png"
+            "imagefile": "sniper_full"
         },
         "36": {
             "heroid": "36",
@@ -5326,7 +5326,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "necrolyte_full.png"
+            "imagefile": "necrolyte_full"
         },
         "37": {
             "heroid": "37",
@@ -5371,7 +5371,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "warlock_full.png"
+            "imagefile": "warlock_full"
         },
         "38": {
             "heroid": "38",
@@ -5416,7 +5416,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "beastmaster_full.png"
+            "imagefile": "beastmaster_full"
         },
         "39": {
             "heroid": "39",
@@ -5461,7 +5461,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "queenofpain_full.png"
+            "imagefile": "queenofpain_full"
         },
         "40": {
             "heroid": "40",
@@ -5506,7 +5506,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "venomancer_full.png"
+            "imagefile": "venomancer_full"
         },
         "41": {
             "heroid": "41",
@@ -5551,7 +5551,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "faceless_void_full.png"
+            "imagefile": "faceless_void_full"
         },
         "42": {
             "heroid": "42",
@@ -5596,7 +5596,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "skeleton_king_full.png"
+            "imagefile": "skeleton_king_full"
         },
         "43": {
             "heroid": "43",
@@ -5641,7 +5641,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "death_prophet_full.png"
+            "imagefile": "death_prophet_full"
         },
         "44": {
             "heroid": "44",
@@ -5686,7 +5686,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "phantom_assassin_full.png"
+            "imagefile": "phantom_assassin_full"
         },
         "45": {
             "heroid": "45",
@@ -5731,7 +5731,7 @@
                 "pos4": true,
                 "pos5": true
             },
-            "imagefile": "pugna_full.png"
+            "imagefile": "pugna_full"
         },
         "46": {
             "heroid": "46",
@@ -5776,7 +5776,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "templar_assassin_full.png"
+            "imagefile": "templar_assassin_full"
         },
         "47": {
             "heroid": "47",
@@ -5821,7 +5821,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "viper_full.png"
+            "imagefile": "viper_full"
         },
         "48": {
             "heroid": "48",
@@ -5866,7 +5866,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "luna_full.png"
+            "imagefile": "luna_full"
         },
         "49": {
             "heroid": "49",
@@ -5911,7 +5911,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "dragon_knight_full.png"
+            "imagefile": "dragon_knight_full"
         },
         "50": {
             "heroid": "50",
@@ -5956,7 +5956,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "dazzle_full.png"
+            "imagefile": "dazzle_full"
         },
         "51": {
             "heroid": "51",
@@ -6001,7 +6001,7 @@
                 "pos4": true,
                 "pos5": false
             },
-            "imagefile": "rattletrap_full.png"
+            "imagefile": "rattletrap_full"
         },
         "52": {
             "heroid": "52",
@@ -6046,7 +6046,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "leshrac_full.png"
+            "imagefile": "leshrac_full"
         },
         "53": {
             "heroid": "53",
@@ -6091,7 +6091,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "furion_full.png"
+            "imagefile": "furion_full"
         },
         "54": {
             "heroid": "54",
@@ -6136,7 +6136,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "life_stealer_full.png"
+            "imagefile": "life_stealer_full"
         },
         "55": {
             "heroid": "55",
@@ -6181,7 +6181,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "dark_seer_full.png"
+            "imagefile": "dark_seer_full"
         },
         "56": {
             "heroid": "56",
@@ -6226,7 +6226,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "clinkz_full.png"
+            "imagefile": "clinkz_full"
         },
         "57": {
             "heroid": "57",
@@ -6271,7 +6271,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "omniknight_full.png"
+            "imagefile": "omniknight_full"
         },
         "58": {
             "heroid": "58",
@@ -6316,7 +6316,7 @@
                 "pos4": true,
                 "pos5": false
             },
-            "imagefile": "enchantress_full.png"
+            "imagefile": "enchantress_full"
         },
         "59": {
             "heroid": "59",
@@ -6361,7 +6361,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "huskar_full.png"
+            "imagefile": "huskar_full"
         },
         "60": {
             "heroid": "60",
@@ -6406,7 +6406,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "night_stalker_full.png"
+            "imagefile": "night_stalker_full"
         },
         "61": {
             "heroid": "61",
@@ -6451,7 +6451,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "broodmother_full.png"
+            "imagefile": "broodmother_full"
         },
         "62": {
             "heroid": "62",
@@ -6496,7 +6496,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "bounty_hunter_full.png"
+            "imagefile": "bounty_hunter_full"
         },
         "63": {
             "heroid": "63",
@@ -6541,7 +6541,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "weaver_full.png"
+            "imagefile": "weaver_full"
         },
         "64": {
             "heroid": "64",
@@ -6586,7 +6586,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "jakiro_full.png"
+            "imagefile": "jakiro_full"
         },
         "65": {
             "heroid": "65",
@@ -6631,7 +6631,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "batrider_full.png"
+            "imagefile": "batrider_full"
         },
         "66": {
             "heroid": "66",
@@ -6676,7 +6676,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "chen_full.png"
+            "imagefile": "chen_full"
         },
         "67": {
             "heroid": "67",
@@ -6721,7 +6721,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "spectre_full.png"
+            "imagefile": "spectre_full"
         },
         "68": {
             "heroid": "68",
@@ -6766,7 +6766,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "ancient_apparition_full.png"
+            "imagefile": "ancient_apparition_full"
         },
         "69": {
             "heroid": "69",
@@ -6811,7 +6811,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "doom_bringer_full.png"
+            "imagefile": "doom_bringer_full"
         },
         "70": {
             "heroid": "70",
@@ -6856,7 +6856,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "ursa_full.png"
+            "imagefile": "ursa_full"
         },
         "71": {
             "heroid": "71",
@@ -6901,7 +6901,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "spirit_breaker_full.png"
+            "imagefile": "spirit_breaker_full"
         },
         "72": {
             "heroid": "72",
@@ -6946,7 +6946,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "gyrocopter_full.png"
+            "imagefile": "gyrocopter_full"
         },
         "73": {
             "heroid": "73",
@@ -6991,7 +6991,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "alchemist_full.png"
+            "imagefile": "alchemist_full"
         },
         "74": {
             "heroid": "74",
@@ -7036,7 +7036,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "invoker_full.png"
+            "imagefile": "invoker_full"
         },
         "75": {
             "heroid": "75",
@@ -7081,7 +7081,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "silencer_full.png"
+            "imagefile": "silencer_full"
         },
         "76": {
             "heroid": "76",
@@ -7126,7 +7126,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "obsidian_destroyer_full.png"
+            "imagefile": "obsidian_destroyer_full"
         },
         "77": {
             "heroid": "77",
@@ -7171,7 +7171,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "lycan_full.png"
+            "imagefile": "lycan_full"
         },
         "78": {
             "heroid": "78",
@@ -7216,7 +7216,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "brewmaster_full.png"
+            "imagefile": "brewmaster_full"
         },
         "79": {
             "heroid": "79",
@@ -7261,7 +7261,7 @@
                 "pos4": true,
                 "pos5": true
             },
-            "imagefile": "shadow_demon_full.png"
+            "imagefile": "shadow_demon_full"
         },
         "80": {
             "heroid": "80",
@@ -7306,7 +7306,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "lone_druid_full.png"
+            "imagefile": "lone_druid_full"
         },
         "81": {
             "heroid": "81",
@@ -7351,7 +7351,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "chaos_knight_full.png"
+            "imagefile": "chaos_knight_full"
         },
         "82": {
             "heroid": "82",
@@ -7396,7 +7396,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "meepo_full.png"
+            "imagefile": "meepo_full"
         },
         "83": {
             "heroid": "83",
@@ -7441,7 +7441,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "treant_full.png"
+            "imagefile": "treant_full"
         },
         "84": {
             "heroid": "84",
@@ -7486,7 +7486,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "ogre_magi_full.png"
+            "imagefile": "ogre_magi_full"
         },
         "85": {
             "heroid": "85",
@@ -7531,7 +7531,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "undying_full.png"
+            "imagefile": "undying_full"
         },
         "86": {
             "heroid": "86",
@@ -7576,7 +7576,7 @@
                 "pos4": true,
                 "pos5": false
             },
-            "imagefile": "rubick_full.png"
+            "imagefile": "rubick_full"
         },
         "87": {
             "heroid": "87",
@@ -7621,7 +7621,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "disruptor_full.png"
+            "imagefile": "disruptor_full"
         },
         "88": {
             "heroid": "88",
@@ -7666,7 +7666,7 @@
                 "pos4": true,
                 "pos5": false
             },
-            "imagefile": "nyx_assassin_full.png"
+            "imagefile": "nyx_assassin_full"
         },
         "89": {
             "heroid": "89",
@@ -7711,7 +7711,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "naga_siren_full.png"
+            "imagefile": "naga_siren_full"
         },
         "90": {
             "heroid": "90",
@@ -7756,7 +7756,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "keeper_of_the_light_full.png"
+            "imagefile": "keeper_of_the_light_full"
         },
         "91": {
             "heroid": "91",
@@ -7801,7 +7801,7 @@
                 "pos4": true,
                 "pos5": false
             },
-            "imagefile": "wisp_full.png"
+            "imagefile": "wisp_full"
         },
         "92": {
             "heroid": "92",
@@ -7846,7 +7846,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "visage_full.png"
+            "imagefile": "visage_full"
         },
         "93": {
             "heroid": "93",
@@ -7891,7 +7891,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "slark_full.png"
+            "imagefile": "slark_full"
         },
         "94": {
             "heroid": "94",
@@ -7936,7 +7936,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "medusa_full.png"
+            "imagefile": "medusa_full"
         },
         "95": {
             "heroid": "95",
@@ -7981,7 +7981,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "troll_warlord_full.png"
+            "imagefile": "troll_warlord_full"
         },
         "96": {
             "heroid": "96",
@@ -8026,7 +8026,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "centaur_full.png"
+            "imagefile": "centaur_full"
         },
         "97": {
             "heroid": "97",
@@ -8071,7 +8071,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "magnataur_full.png"
+            "imagefile": "magnataur_full"
         },
         "98": {
             "heroid": "98",
@@ -8116,7 +8116,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "shredder_full.png"
+            "imagefile": "shredder_full"
         },
         "99": {
             "heroid": "99",
@@ -8161,7 +8161,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "bristleback_full.png"
+            "imagefile": "bristleback_full"
         },
         "100": {
             "heroid": "100",
@@ -8206,7 +8206,7 @@
                 "pos4": true,
                 "pos5": false
             },
-            "imagefile": "tusk_full.png"
+            "imagefile": "tusk_full"
         },
         "101": {
             "heroid": "101",
@@ -8251,7 +8251,7 @@
                 "pos4": true,
                 "pos5": false
             },
-            "imagefile": "skywrath_mage_full.png"
+            "imagefile": "skywrath_mage_full"
         },
         "102": {
             "heroid": "102",
@@ -8296,7 +8296,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "abaddon_full.png"
+            "imagefile": "abaddon_full"
         },
         "103": {
             "heroid": "103",
@@ -8341,7 +8341,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "elder_titan_full.png"
+            "imagefile": "elder_titan_full"
         },
         "104": {
             "heroid": "104",
@@ -8386,7 +8386,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "legion_commander_full.png"
+            "imagefile": "legion_commander_full"
         },
         "105": {
             "heroid": "105",
@@ -8431,7 +8431,7 @@
                 "pos4": true,
                 "pos5": false
             },
-            "imagefile": "techies_full.png"
+            "imagefile": "techies_full"
         },
         "106": {
             "heroid": "106",
@@ -8476,7 +8476,7 @@
                 "pos4": true,
                 "pos5": false
             },
-            "imagefile": "ember_spirit_full.png"
+            "imagefile": "ember_spirit_full"
         },
         "107": {
             "heroid": "107",
@@ -8521,7 +8521,7 @@
                 "pos4": true,
                 "pos5": false
             },
-            "imagefile": "earth_spirit_full.png"
+            "imagefile": "earth_spirit_full"
         },
         "108": {
             "heroid": "108",
@@ -8566,7 +8566,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "abyssal_underlord_full.png"
+            "imagefile": "abyssal_underlord_full"
         },
         "109": {
             "heroid": "109",
@@ -8611,7 +8611,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "terrorblade_full.png"
+            "imagefile": "terrorblade_full"
         },
         "110": {
             "heroid": "110",
@@ -8656,7 +8656,7 @@
                 "pos4": true,
                 "pos5": true
             },
-            "imagefile": "phoenix_full.png"
+            "imagefile": "phoenix_full"
         },
         "111": {
             "heroid": "111",
@@ -8701,7 +8701,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "oracle_full.png"
+            "imagefile": "oracle_full"
         },
         "112": {
             "heroid": "112",
@@ -8746,7 +8746,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "winter_wyvern_full.png"
+            "imagefile": "winter_wyvern_full"
         },
         "113": {
             "heroid": "113",
@@ -8791,7 +8791,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "arc_warden_full.png"
+            "imagefile": "arc_warden_full"
         },
         "114": {
             "heroid": "114",
@@ -8836,7 +8836,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "monkey_king_full.png"
+            "imagefile": "monkey_king_full"
         },
         "119": {
             "heroid": "119",
@@ -8881,7 +8881,7 @@
                 "pos4": true,
                 "pos5": false
             },
-            "imagefile": "dark_willow_full.png"
+            "imagefile": "dark_willow_full"
         },
         "120": {
             "heroid": "120",
@@ -8926,7 +8926,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "pangolier_full.png"
+            "imagefile": "pangolier_full"
         },
         "121": {
             "heroid": "121",
@@ -8971,7 +8971,7 @@
                 "pos4": false,
                 "pos5": true
             },
-            "imagefile": "grimstroke_full.png"
+            "imagefile": "grimstroke_full"
         },
         "126": {
             "heroid": "126",
@@ -9016,7 +9016,7 @@
                 "pos4": true,
                 "pos5": false
             },
-            "imagefile": "void_spirit_full.png"
+            "imagefile": "void_spirit_full"
         },
         "128": {
             "heroid": "128",
@@ -9061,7 +9061,7 @@
                 "pos4": true,
                 "pos5": true
             },
-            "imagefile": "snapfire_full.png"
+            "imagefile": "snapfire_full"
         },
         "129": {
             "heroid": "129",
@@ -9106,7 +9106,7 @@
                 "pos4": false,
                 "pos5": false
             },
-            "imagefile": "mars_full.png"
+            "imagefile": "mars_full"
         }
     }
 }
