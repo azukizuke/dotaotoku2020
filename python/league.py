@@ -13,6 +13,7 @@ class League:
         self._indexjson = indexjson
         self._herojson = {}
         # init league stats
+        self._match_num = self._opendotajson.get_match_num()
         self._pickbans = {}
         self._pickbans_ranking = {}
         self.leaguejson = {}
@@ -55,6 +56,7 @@ class League:
             self._herojson[k] = hero.Hero(k, v['name'], self._indexjson)
 
     def _make_leaguejson(self):
+        self.leaguejson['match_num'] = self._match_num
         self.leaguejson['pickbans'] = self._pickbans
 
     def _make_herojson(self):
