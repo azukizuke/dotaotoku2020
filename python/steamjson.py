@@ -35,9 +35,9 @@ class SteamJson:
             sort_matches = self._sort_matches_api(result)
 
             self._add_match(sort_matches)
-            next_id = sort_matches[-1]['match_id']
             if not self._has_next(sort_matches):
                 break
+            next_id = sort_matches[-1]['match_id']
 
     def _make_steam_url(self, start_id=-1):
         url = (self._STEAMAPI_BASE

@@ -14,6 +14,7 @@ class League:
         self._herojson = {}
         # init league stats
         self._match_num = self._opendotajson.get_match_num()
+        self._last_matchid = self._opendotajson.get_last_matchid()
         self._pickbans = {}
         self._pickbans_ranking = {}
         self.leaguejson = {}
@@ -56,7 +57,9 @@ class League:
             self._herojson[k] = hero.Hero(k, v['name'], self._indexjson)
 
     def _make_leaguejson(self):
+        self.leaguejson['name'] = self._name
         self.leaguejson['match_num'] = self._match_num
+        self.leaguejson['last_matchid'] = self._last_matchid
         self.leaguejson['pickbans'] = self._pickbans
 
     def _make_herojson(self):

@@ -45,5 +45,10 @@ class OpendotaJson:
     def get_match_num(self):
         return len(self.details)
 
+    def get_last_matchid(self):
+        return (next(iter(self.details)))
+
+
+
 if __name__ == '__main__':
     pass
