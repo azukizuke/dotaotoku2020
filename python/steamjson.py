@@ -79,6 +79,9 @@ class SteamJson:
     def get_matches(self):
         return self.matches
 
+    def get_last_unixdate(self):
+        return self.matches[next(iter(self.matches))]['start_time']
+
 
 if __name__ == "__main__":
     pass

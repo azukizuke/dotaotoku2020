@@ -1,7 +1,9 @@
 {
     "name": "BTSonline",
     "match_num": 16,
+    "year": "2020",
     "last_matchid": 5373193792,
+    "last_unixdate": 1587607910,
     "pickbans": {
         "0": {
             "1": 0,

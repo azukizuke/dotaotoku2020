@@ -5,16 +5,18 @@ import json
 class League:
     _FILENAME_SUFFIX = "_league.json"
 
-    def __init__(self, leagueid, name, opendotajson, indexjson):
+    def __init__(self, leagueid, name, year, opendotajson, indexjson):
         # init
         self._leagueid = leagueid
         self._name = name
+        self._year = year
         self._opendotajson = opendotajson
         self._indexjson = indexjson
         self._herojson = {}
         # init league stats
         self._match_num = self._opendotajson.get_match_num()
         self._last_matchid = self._opendotajson.get_last_matchid()
+        self._last_unixdate = self._opendotajson.get_last_unixdate()
         self._pickbans = {}
         self._pickbans_ranking = {}
         self.leaguejson = {}
@@ -59,7 +61,9 @@ class League:
     def _make_leaguejson(self):
         self.leaguejson['name'] = self._name
         self.leaguejson['match_num'] = self._match_num
+        self.leaguejson['year'] = self._year
         self.leaguejson['last_matchid'] = self._last_matchid
+        self.leaguejson['last_unixdate'] = self._last_unixdate
         self.leaguejson['pickbans'] = self._pickbans
 
     def _make_herojson(self):

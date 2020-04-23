@@ -48,6 +48,9 @@ class OpendotaJson:
     def get_last_matchid(self):
         return (next(iter(self.details)))
 
+    def get_last_unixdate(self):
+        return (self._steamjson.get_last_unixdate())
+
 
 
 if __name__ == '__main__':
