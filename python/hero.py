@@ -19,7 +19,6 @@ class Hero:
         imagefile = original_imagefile.split('/')[-1].rstrip('?').split('.')[0]
         return imagefile
 
-
     def _init_pickbans(self):
         for k, v in self._indexjson.pickbans.items():
             self.pickbans[k] = 0
@@ -54,4 +53,4 @@ class Hero:
         output_dict['pickbans'] = self.pickbans
         output_dict['hero_role'] = self.hero_role
         output_dict['imagefile'] = self.imagefile
-        return output_dict;
+        return output_dict

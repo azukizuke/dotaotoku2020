@@ -2,14 +2,15 @@ import hero
 import json
 import datetime
 
+
 class League:
     _FILENAME_SUFFIX = "_league.json"
 
     def __init__(self, leagueid, opendotajson, indexjson):
         # init
         self._leagueid = leagueid
-        #self._name = name
-        #self._year = year
+        # self._name = name
+        # self._year = year
         self._opendotajson = opendotajson
         self._indexjson = indexjson
         self._herojson = {}
@@ -28,8 +29,6 @@ class League:
 
         # make stats
         self._make_stats()
-
-
 
     def _make_stats(self):
         # match rootin
@@ -85,6 +84,6 @@ class League:
         return self.leaguejson
 
     def _make_year_from_lastdate(self):
-        #self._last_unixdate
+        # self._last_unixdate
         lastdate = datetime.datetime.fromtimestamp(self._last_unixdate)
         return (lastdate.year)
