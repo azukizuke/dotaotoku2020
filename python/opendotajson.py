@@ -51,7 +51,8 @@ class OpendotaJson:
     def get_last_unixdate(self):
         return (self._steamjson.get_last_unixdate())
 
-
+    def get_leaguename(self):
+        return (self.details[next(iter(self.details))]['league']['name'])
 
 if __name__ == '__main__':
     pass

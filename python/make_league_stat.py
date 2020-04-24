@@ -44,8 +44,6 @@ if __name__ == "__main__":
     apikey_steam = sys.argv[2]
     apikey_opendota = sys.argv[3]
     startid = sys.argv[4]
-    name = sys.argv[5]
-    year = sys.argv[6]
 
     all_league_json = {}
 
@@ -69,7 +67,7 @@ if __name__ == "__main__":
                                     OPENDOTA_INDEX_JSON_FOLDER_PATH)
 
     # make stat
-    league = league.League(leagueid, name, year, opendotajson, indexjson)
+    league = league.League(leagueid, opendotajson, indexjson)
     league.write_json(league_folder)
 
     # make all league json
