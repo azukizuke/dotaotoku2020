@@ -33,6 +33,7 @@ class League:
     def _make_stats(self):
         # match rootin
         for k, v in self._opendotajson.get_details().items():
+            print(k)
             self._add_hero_pickbans(v['picks_bans'])
 
         # end of match rootin

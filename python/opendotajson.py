@@ -31,7 +31,8 @@ class OpendotaJson:
         return url
 
     def _add_detail(self, result):
-        self.details[result['match_id']] = result
+        if result['game_mode'] == 2:
+          self.details[result['match_id']] = result
 
     def write_json(self, folder_path):
         filename = str(self._leagueid) + self._FILENAME_SUFFIX
