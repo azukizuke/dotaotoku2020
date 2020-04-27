@@ -55,6 +55,10 @@ if __name__ == "__main__":
     league_folder = PARENT_LEAGUE_FOLDER_PATH / leagueid
     league_folder.mkdir(exist_ok=True)
 
+    # index_json
+    indexjson = indexjson.IndexJson(INDEX_JSON_FOLDER_PATH,
+                                    OPENDOTA_INDEX_JSON_FOLDER_PATH)
+
     # steam
     steamjson = steamjson.SteamJson(leagueid, apikey_steam, startid)
     steamjson.write_json(league_folder)
@@ -62,12 +66,10 @@ if __name__ == "__main__":
     # opendota
     opendotajson = opendotajson.OpendotaJson(leagueid,
                                              apikey_opendota,
-                                             steamjson)
+                                             steamjson,
+                                             indexjson)
     opendotajson.write_json(league_folder)
 
-    # index_json
-    indexjson = indexjson.IndexJson(INDEX_JSON_FOLDER_PATH,
-                                    OPENDOTA_INDEX_JSON_FOLDER_PATH)
 
     # make stat
     league = league.League(leagueid, opendotajson, indexjson)

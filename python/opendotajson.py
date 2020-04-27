@@ -7,11 +7,12 @@ class OpendotaJson:
     _OPENDOTAAPI_KEY = "?api_key="
     _FILENAME_SUFFIX = "_opendotaapi.json"
 
-    def __init__(self, leagueid, apikey, steamjson):
+    def __init__(self, leagueid, apikey, steamjson, indexjson):
         # init
         self._leagueid = leagueid
         self._apikey = apikey
         self._steamjson = steamjson
+        self._indexjson = indexjson
         self.details = {}
 
         # make opendota json
@@ -32,7 +33,7 @@ class OpendotaJson:
 
     def _add_detail(self, result):
         if result['game_mode'] == 2:
-          self.details[result['match_id']] = result
+            self.details[result['match_id']] = result
 
     def write_json(self, folder_path):
         filename = str(self._leagueid) + self._FILENAME_SUFFIX
@@ -54,6 +55,49 @@ class OpendotaJson:
 
     def get_leaguename(self):
         return (self.details[next(iter(self.details))]['league']['name'])
+
+    def get_match_skillstats(self, matchid):
+        skillstats = {}
+        for player in self.details[matchid]['players']:
+            heroid = player['hero_id']
+            skillarr = player['ability_upgrades_arr']
+            skillstats[heroid] = skillarr
+        return skillstats
+
+    def get_match_talentstats(self, matchid):
+        talentstats = {}
+        for player in self.details[matchid]['players']:
+            heroid = player['hero_id']
+            talentarr = []
+            skillarr = player['ability_upgrades_arr']
+            if not isinstance(skillarr, type(None)):
+                for skill in skillarr:
+                    if (self._indexjson.is_talent(str(skill))):
+                        talentarr.append(skill)
+                talentstats[heroid] = talentarr
+        return talentstats
+
+    def get_match_lastitems(self, matchid):
+        lastitems = {}
+        for player in self.details[matchid]['players']:
+            heroid = player['hero_id']
+            itemarr = []
+            itemarr.append(player['item_0'])
+            itemarr.append(player['item_1'])
+            itemarr.append(player['item_2'])
+            itemarr.append(player['item_3'])
+            itemarr.append(player['item_4'])
+            itemarr.append(player['item_5'])
+            lastitems[heroid] = itemarr
+        return lastitems
+
+    def get_match_lastneutralitems(self, matchid):
+        lastneutralitems = {}
+        for player in self.details[matchid]['players']:
+            heroid = player['hero_id']
+            neutralitem = player['item_neutral']
+            lastneutralitems[heroid] = neutralitem
+        return lastneutralitems
 
 
 if __name__ == '__main__':

@@ -1,6 +1,7 @@
 import hero
 import json
 import datetime
+import traceback
 
 
 class League:
@@ -33,13 +34,16 @@ class League:
     def _make_stats(self):
         # match rootin
         for k, v in self._opendotajson.get_details().items():
-            print(k)
             self._add_hero_pickbans(v['picks_bans'])
+            self._add_hero_skillstats(k)
+            self._add_hero_talentstats(k)
+            self._add_hero_lastitems(k)
+            self._add_hero_lastneutralitems(k)
 
         # end of match rootin
         self._make_league_pickbans()
 
-        # make_json
+        # make_output_json
         self._make_leaguejson()
         self._make_herojson()
 
@@ -57,6 +61,36 @@ class League:
     def _add_hero_pickbans(self, pickbans):
         for v in pickbans:
             self._herojson[str(v['hero_id'])].add_pickbans(v['order'])
+
+    def _add_hero_skillstats(self, matchid):
+        try:
+            skillstats = self._opendotajson.get_match_skillstats(matchid)
+            for heroid, skillarr in skillstats.items():
+                if (not isinstance(skillarr, type(None))):
+                    self._herojson[str(heroid)].add_skillstats(skillarr)
+        except:
+            traceback.print_exc()
+            print("---error add hero skillstat-----------------")
+            print("error matchid: ",matchid)
+            print("error : heroid",heroid)
+            print("error : skillstats",skillstats)
+            raise
+
+    def _add_hero_talentstats(self, matchid):
+        talentstats = self._opendotajson.get_match_talentstats(matchid)
+        if (not isinstance(talentstats, type(None))):
+            for heroid, talentarr in talentstats.items():
+                self._herojson[str(heroid)].add_talentstats(talentarr)
+
+    def _add_hero_lastitems(self, matchid):
+        lastitems = self._opendotajson.get_match_lastitems(matchid)
+        for heroid, itemarr in lastitems.items():
+            self._herojson[str(heroid)].add_lastitems(lastitems)
+
+    def _add_hero_lastneutralitems(self, matchid):
+        lastneutralitems = self._opendotajson.get_match_lastneutralitems(matchid)
+        for heroid, newutralitems in lastneutralitems.items():
+            self._herojson[str(heroid)].add_lastneutralitems(lastneutralitems)
 
     def _init_herojson(self):
         for k, v in self._indexjson.opendota_heroes.items():

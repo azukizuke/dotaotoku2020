@@ -1,9 +1,14 @@
 import json
+import re
 from pathlib import Path
 
 
 class IndexJson:
+    # opendota
     _OPENDOTA_HERO = "heroes.json"
+    _OPENDOTA_HERO_ABILITIES = "hero_abilities.json"
+    _OPENDOTA_ABILITY_IDS = "ability_ids.json"
+    # self
     _PICKBANS = "pickbans.json"
     _HERO_ROLE = "hero_role.json"
     _ROLE_INDEX = "role_index.json"
@@ -12,6 +17,12 @@ class IndexJson:
         # opendota
         self.opendota_heroes = self._load_json(path_opendota_index
                                                / self._OPENDOTA_HERO)
+        self.opendota_hero_abilities = self._load_json(
+                                       path_opendota_index
+                                       / self._OPENDOTA_HERO_ABILITIES)
+        self.opendota_ability_ids = self._load_json(
+                                    path_opendota_index
+                                    / self._OPENDOTA_ABILITY_IDS)
         # original
         self.pickbans = self._load_json(path_index/self._PICKBANS)
         self.hero_role = self._load_json(path_index/self._HERO_ROLE)
@@ -21,3 +32,21 @@ class IndexJson:
         with open(path) as f:
             result = json.load(f)
         return result
+
+    def get_ability_id(self, abilityname):
+        for abilityid, ability in self.opendota_ability_ids.items():
+            if abilityname == ability:
+                return(abilityid)
+
+    def get_ability_name(self, abilityid):
+        for _abilityid, _ability in self.opendota_ability_ids.items():
+            if str(abilityid) == str(_abilityid):
+                return(_ability)
+
+    def is_talent(self, abilityid):
+        abilityname = self.get_ability_name(abilityid)
+        if re.match(r'^special_bonus_.*', abilityname):
+            return True
+        else:
+            return False
+
