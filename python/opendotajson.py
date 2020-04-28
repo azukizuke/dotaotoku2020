@@ -123,11 +123,13 @@ class OpendotaJson:
         sentry_ranking = {}
         for player in players:
             heroid = player['hero_id']
-            if 'purchase_ward_sentry' in player :
+            if 'purchase_ward_sentry' in player:
                 sentry_ranking[heroid] = player['purchase_ward_sentry']
             else:
                 sentry_ranking[heroid] = 0
-        sorted_ranking = sorted(sentry_ranking.items(), reverse=True, key=lambda x:x[1])
+        sorted_ranking = sorted(sentry_ranking.items(),
+                                reverse=True,
+                                key=lambda x: x[1])
         return sorted_ranking[0][0]
 
     def _get_supports(self, players):
@@ -136,7 +138,7 @@ class OpendotaJson:
             heroid = player['hero_id']
             lh = player['lh_t'][10]
             lasthit[heroid] = lh
-        sorted_ranking = sorted(lasthit.items(), key=lambda x:x[1])
+        sorted_ranking = sorted(lasthit.items(), key=lambda x: x[1])
         return [sorted_ranking[0][0], sorted_ranking[1][0]]
 
     def _get_teamplayers(self, players, isRadiant):
@@ -146,10 +148,21 @@ class OpendotaJson:
                 team_players.append(player)
         return team_players
 
+    def _get_gold_ranking(self, players):
+        networth = {}
+        for player in players:
+            heroid = player['hero_id']
+            gold = player['total_gold']
+            networth[heroid] = gold
+        sorted_ranking = sorted(networth.items(),
+                                key=lambda x: x[1],
+                                reverse=True)
+        return sorted_ranking
+
     def get_match_autorole(self, matchid):
         autorole = {}
 
-        radiant= self._get_teamplayers(self.details[matchid]['players'], True)
+        radiant = self._get_teamplayers(self.details[matchid]['players'], True)
         dire = self._get_teamplayers(self.details[matchid]['players'], False)
 
         autorole[self._get_most_sentry(radiant)] = 'pos5'
@@ -157,20 +170,30 @@ class OpendotaJson:
 
         supports = self._get_supports(radiant)
         supports.extend(self._get_supports(dire))
-        
+
         for support in supports:
-            if not support in autorole:
+            if support not in autorole:
                 autorole[support] = 'pos4'
 
         for player in self.details[matchid]['players']:
             heroid = player['hero_id']
-            if not heroid in autorole:
-                if player['lane'] == 1:
-                    autorole[heroid] = 'pos1'
-                if player['lane'] == 2:
+            if heroid not in autorole:
+                if player['lane_role'] == 2:
                     autorole[heroid] = 'pos2'
-                if player['lane'] == 3:
-                    autorole[heroid] = 'pos3'
+
+        gold_ranking = []
+        gold_ranking.append(self._get_gold_ranking(radiant))
+        gold_ranking.append(self._get_gold_ranking(dire))
+
+        for team in gold_ranking:
+            has_pos1 = False
+            for rank in team:
+                if not rank[0] in autorole:
+                    if has_pos1:
+                        autorole[rank[0]] = 'pos3'
+                    else:
+                        autorole[rank[0]] = 'pos1'
+                        has_pos1 = True
         return autorole
 
 
