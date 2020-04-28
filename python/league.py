@@ -35,9 +35,12 @@ class League:
         # match rootin
         for k, v in self._opendotajson.get_details().items():
             self._add_hero_pickbans(v['picks_bans'])
+            self._add_hero_autoroles(k)
             self._add_hero_skillstats(k)
             self._add_hero_talentstats(k)
             self._add_hero_lastitems(k)
+            self._add_hero_purchaselog(k)
+            self._add_hero_startitems(k)
             self._add_hero_lastneutralitems(k)
 
         # end of match rootin
@@ -62,18 +65,24 @@ class League:
         for v in pickbans:
             self._herojson[str(v['hero_id'])].add_pickbans(v['order'])
 
+    def _add_hero_autoroles(self, matchid):
+        autoroles = self._opendotajson.get_match_autorole(matchid)
+        for heroid, autorole in autoroles.items():
+            self._herojson[str(heroid)].add_autoroles(autorole)
+
+
     def _add_hero_skillstats(self, matchid):
         try:
             skillstats = self._opendotajson.get_match_skillstats(matchid)
             for heroid, skillarr in skillstats.items():
                 if (not isinstance(skillarr, type(None))):
                     self._herojson[str(heroid)].add_skillstats(skillarr)
-        except:
+        except TypeError:
             traceback.print_exc()
             print("---error add hero skillstat-----------------")
-            print("error matchid: ",matchid)
-            print("error : heroid",heroid)
-            print("error : skillstats",skillstats)
+            print("error matchid: ", matchid)
+            print("error : heroid", heroid)
+            print("error : skillstats", skillstats)
             raise
 
     def _add_hero_talentstats(self, matchid):
@@ -87,10 +96,21 @@ class League:
         for heroid, itemarr in lastitems.items():
             self._herojson[str(heroid)].add_lastitems(lastitems)
 
+    def _add_hero_startitems(self, matchid):
+        startitems = self._opendotajson.get_match_startitems(matchid)
+        for heroid, startitem in startitems.items():
+            self._herojson[str(heroid)].add_startitems(startitem)
+
     def _add_hero_lastneutralitems(self, matchid):
-        lastneutralitems = self._opendotajson.get_match_lastneutralitems(matchid)
+        opendotajson = self._opendotajson
+        lastneutralitems = opendotajson.get_match_lastneutralitems(matchid)
         for heroid, newutralitems in lastneutralitems.items():
             self._herojson[str(heroid)].add_lastneutralitems(lastneutralitems)
+
+    def _add_hero_purchaselog(self, matchid):
+        purchaselog = self._opendotajson.get_match_purchaselog(matchid)
+        for heroid, purchase in purchaselog.items():
+            self._herojson[str(heroid)].add_purchaselog(purchase)
 
     def _init_herojson(self):
         for k, v in self._indexjson.opendota_heroes.items():

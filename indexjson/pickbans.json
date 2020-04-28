@@ -122,5 +122,25 @@
     "ban3" : {
         "is_pick" : null,
 	    "type" : null
+    },
+    "pos1" : {
+        "is_pick" : null,
+	    "type" : null
+    },
+    "pos2" : {
+        "is_pick" : null,
+	    "type" : null
+    },
+    "pos3" : {
+        "is_pick" : null,
+	    "type" : null
+    },
+    "pos4" : {
+        "is_pick" : null,
+	    "type" : null
+    },
+    "pos5" : {
+        "is_pick" : null,
+	    "type" : null
     }
 }

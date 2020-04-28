@@ -99,6 +99,80 @@ class OpendotaJson:
             lastneutralitems[heroid] = neutralitem
         return lastneutralitems
 
+    def get_match_startitems(self, matchid):
+        startitems = {}
+        for player in self.details[matchid]['players']:
+            startitem = []
+            heroid = player['hero_id']
+            purchaselog = player['purchase_log']
+            for purchase in purchaselog:
+                if purchase['time'] <= 0:
+                    itemid = self._indexjson.get_item_id(purchase['key'])
+                    startitem.append(itemid)
+            startitems[heroid] = sorted(startitem)
+        return startitems
+
+    def get_match_purchaselog(self, matchid):
+        purchaselog = {}
+        for player in self.details[matchid]['players']:
+            heroid = player['hero_id']
+            purchaselog[heroid] = player['purchase_log']
+        return purchaselog
+
+    def _get_most_sentry(self, players):
+        sentry_ranking = {}
+        for player in players:
+            heroid = player['hero_id']
+            if 'purchase_ward_sentry' in player :
+                sentry_ranking[heroid] = player['purchase_ward_sentry']
+            else:
+                sentry_ranking[heroid] = 0
+        sorted_ranking = sorted(sentry_ranking.items(), reverse=True, key=lambda x:x[1])
+        return sorted_ranking[0][0]
+
+    def _get_supports(self, players):
+        lasthit = {}
+        for player in players:
+            heroid = player['hero_id']
+            lh = player['lh_t'][10]
+            lasthit[heroid] = lh
+        sorted_ranking = sorted(lasthit.items(), key=lambda x:x[1])
+        return [sorted_ranking[0][0], sorted_ranking[1][0]]
+
+    def _get_teamplayers(self, players, isRadiant):
+        team_players = []
+        for player in players:
+            if player['isRadiant'] == isRadiant:
+                team_players.append(player)
+        return team_players
+
+    def get_match_autorole(self, matchid):
+        autorole = {}
+
+        radiant= self._get_teamplayers(self.details[matchid]['players'], True)
+        dire = self._get_teamplayers(self.details[matchid]['players'], False)
+
+        autorole[self._get_most_sentry(radiant)] = 'pos5'
+        autorole[self._get_most_sentry(dire)] = 'pos5'
+
+        supports = self._get_supports(radiant)
+        supports.extend(self._get_supports(dire))
+        
+        for support in supports:
+            if not support in autorole:
+                autorole[support] = 'pos4'
+
+        for player in self.details[matchid]['players']:
+            heroid = player['hero_id']
+            if not heroid in autorole:
+                if player['lane'] == 1:
+                    autorole[heroid] = 'pos1'
+                if player['lane'] == 2:
+                    autorole[heroid] = 'pos2'
+                if player['lane'] == 3:
+                    autorole[heroid] = 'pos3'
+        return autorole
+
 
 if __name__ == '__main__':
     pass

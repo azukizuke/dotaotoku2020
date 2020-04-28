@@ -58253,7 +58253,7 @@
         "leagueid": 11823,
         "lobby_type": 1,
         "match_seq_num": 4499489577,
-        "negative_votes": 51,
+        "negative_votes": 69,
         "objectives": [
             {
                 "time": 127,
@@ -58584,7 +58584,7 @@
                 "match_id": 5366398445
             }
         ],
-        "positive_votes": 597,
+        "positive_votes": 739,
         "radiant_gold_adv": [
             0,
             -239,

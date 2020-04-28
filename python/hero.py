@@ -1,4 +1,5 @@
 import re
+import copy
 import json
 import traceback
 
@@ -17,6 +18,8 @@ class Hero:
         self.talentstats = {}
         self.lastitems = {}
         self.lastneutralitems = {}
+        self.startitemstats = []
+        self.purchasestats = {}
         # init function
         self._init_pickbans()
         self._init_role()
@@ -101,6 +104,32 @@ class Hero:
             else:
                 self.lastitems[item] = 1
 
+    def add_startitems(self, startitems):
+        # startitems count
+        has_item = -1
+        for i, items in enumerate(self.startitemstats):
+            if items['startitems'] == startitems:
+                has_item = i
+
+        if has_item == -1:
+            self.startitemstats.append({'startitems': startitems, 'count': 1})
+        else:
+            self.startitemstats[has_item]['count'] += 1
+
+    def add_autoroles(self, autorole):
+        self.pickbans[autorole] += 1
+
+    def add_purchaselog(self, purchaselog):
+        for i, purchase in enumerate(purchaselog):
+            item = self._indexjson.get_item_id(purchase['key'])
+            if i in self.purchasestats:
+                if item in self.purchasestats[i]:
+                    self.purchasestats[i][item] += 1
+                else:
+                    self.purchasestats[i][item] = 1
+            else:
+                self.purchasestats[i] = {item: 1}
+
     def add_lastneutralitems(self, neutralitems):
         for item in neutralitems:
             if item in self.lastneutralitems:
@@ -119,6 +148,8 @@ class Hero:
         output_dict['skillstats'] = self.skillstats
         output_dict['talentstats'] = self.talentstats
         output_dict['lastitems'] = self.lastitems
+        output_dict['startitemistats'] = self.startitemstats
+        output_dict['purchasestats'] = self.purchasestats
         output_dict['lastneutralitems'] = self.lastneutralitems
         output_dict['hero_role'] = self.hero_role
         output_dict['imagefile'] = self.imagefile
