@@ -12,6 +12,7 @@ class Hero:
         self.pickbans = {}
         self.hero_role = {}
         self.ability_ids = []
+        self.talent_ids = {}
         self.imagefile = ""
         # dict stats
         self.skillstats = {}
@@ -23,9 +24,13 @@ class Hero:
         # init function
         self._init_pickbans()
         self._init_role()
-        self._init_skillstats()
-        self._init_talentstats()
         self.imagefile = self._init_imagefile()
+        # skill init timing is after
+        self.init_ability_ids()
+        self.init_talent_ids()
+        # stats init from league Class. after add skill
+        # self.init_skillstats()
+        # self.init_talentstats()
 
     def _init_imagefile(self):
         herojson = self._indexjson.opendota_heroes
@@ -37,34 +42,52 @@ class Hero:
         for k, v in self._indexjson.pickbans.items():
             self.pickbans[k] = 0
 
-    def _init_skillstats(self):
-        abilities = self._indexjson.opendota_hero_abilities
-        ability_ids = self._indexjson.opendota_ability_ids
+    def add_abilities(self, ability_upgrades_arr):
+        for ability_id in ability_upgrades_arr:
+            if str(ability_id) not in self.ability_ids:
+                self.ability_ids.append(str(ability_id))
 
-        for ability in abilities[self.name]['abilities']:
-            ability_id = self._indexjson.get_ability_id(ability)
-            self.ability_ids.append(ability_id)
+    def add_talent_ids(self, talent_arr):
+        for i, talent_id in enumerate(talent_arr, 1):
+            if i <= 4:
+                if str(talent_id) not in self.talent_ids[i]:
+                    self.talent_ids[i].append(str(talent_id))
 
-        for value in abilities[self.name]['talents']:
-            ability_id = self._indexjson.get_ability_id(value['name'])
-            self.ability_ids.append(ability_id)
-
+    def init_skillstats(self):
         for i in range(1, 26):
             skillstats = {}
             for abilityid in self.ability_ids:
                 skillstats[abilityid] = 0
             self.skillstats[i] = skillstats
 
-    def _init_talentstats(self):
+    def init_ability_ids(self):
+        abilities = self._indexjson.opendota_hero_abilities
+        ability_ids = self._indexjson.opendota_ability_ids
+        for ability in abilities[self.name]['abilities']:
+            ability_id = self._indexjson.get_ability_id(ability)
+            self.ability_ids.append(ability_id)
+        for value in abilities[self.name]['talents']:
+            ability_id = self._indexjson.get_ability_id(value['name'])
+            self.ability_ids.append(ability_id)
+
+    def init_talent_ids(self):
         abilities = self._indexjson.opendota_hero_abilities
         ability_ids = self._indexjson.opendota_ability_ids
         for value in abilities[self.name]['talents']:
             ability_id = self._indexjson.get_ability_id(value['name'])
             level = value['level']
-            if level in self.talentstats:
-                self.talentstats[level][ability_id] = 0
+            if level in self.talent_ids:
+                self.talent_ids[level].append(ability_id)
             else:
-                self.talentstats[level] = {ability_id: 0}
+                self.talent_ids[level] = [ability_id]
+
+    def init_talentstats(self):
+        for level, talent_id_arr in self.talent_ids.items():
+            for talent_id in talent_id_arr:
+                if level in self.talentstats:
+                    self.talentstats[level][talent_id] = 0
+                else:
+                    self.talentstats[level] = {talent_id: 0}
 
     def _init_role(self):
         for k, v in self._indexjson.role_index.items():
@@ -144,6 +167,8 @@ class Hero:
         output_dict = {}
         output_dict['heroid'] = self.heroid
         output_dict['name'] = self.name
+        output_dict['ability_ids'] = self.ability_ids
+        output_dict['talent_ids'] = self.talent_ids
         output_dict['pickbans'] = self.pickbans
         output_dict['skillstats'] = self.skillstats
         output_dict['talentstats'] = self.talentstats

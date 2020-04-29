@@ -33,6 +33,16 @@ class League:
 
     def _make_stats(self):
         # match rootin
+        # init add skill/talent
+        for match_id, v in self._opendotajson.get_details().items():
+            self._init_hero_skill_stats(match_id)
+            self._init_hero_talent_stats(match_id)
+        # init allhero skill/talent stats
+        for heroid, hero in self._herojson.items():
+            hero.init_skillstats()
+            hero.init_talentstats()
+
+        # add
         for k, v in self._opendotajson.get_details().items():
             self._add_hero_pickbans(v['picks_bans'])
             self._add_hero_autoroles(k)
@@ -60,6 +70,18 @@ class League:
         for heroid, hero in self._herojson.items():
             pickbans[str(heroid)] = hero.get_pickbans(order)
         self._pickbans[str(order)] = pickbans
+
+    def _init_hero_skill_stats(self, match_id):
+        skill_stats = self._opendotajson.get_match_skillstats(match_id)
+        for heroid, skill_arr in skill_stats.items():
+            if (not isinstance(skill_arr, type(None))):
+                self._herojson[str(heroid)].add_abilities(skill_arr)
+
+    def _init_hero_talent_stats(self, match_id):
+        talent_stats = self._opendotajson.get_match_talentstats(match_id)
+        for heroid, talent_arr in talent_stats.items():
+            if (not isinstance(talent_arr, type(None))):
+                self._herojson[str(heroid)].add_talent_ids(talent_arr)
 
     def _add_hero_pickbans(self, pickbans):
         for v in pickbans:

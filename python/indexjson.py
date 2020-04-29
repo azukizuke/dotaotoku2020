@@ -1,5 +1,6 @@
 import json
 import re
+import traceback
 from pathlib import Path
 
 
@@ -54,8 +55,17 @@ class IndexJson:
 
     def is_talent(self, abilityid):
         abilityname = self.get_ability_name(abilityid)
-        if re.match(r'^special_bonus_.*', abilityname):
-            return True
-        else:
-            return False
+        try:
+            if re.match(r'^special_bonus_.*', abilityname):
+                return True
+            else:
+                return False
+        except TypeError:
+            print("---TyperError---")
+            traceback.print_exc()
+            print("---")
+            print("abilityname: ",abilityname)
+            print("abilityid: ",abilityid)
+            print("---")
+            raise
 
