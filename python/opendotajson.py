@@ -119,6 +119,16 @@ class OpendotaJson:
             purchaselog[heroid] = player['purchase_log']
         return purchaselog
 
+    def get_match_is_win(self, matchid):
+        is_win = {}
+        for player in self.details[matchid]['players']:
+            heroid = player['hero_id']
+            if player['win'] == 1:
+                is_win[heroid] = True
+            else:
+                is_win[heroid] = False
+        return is_win
+
     def _get_most_sentry(self, players):
         sentry_ranking = {}
         for player in players:

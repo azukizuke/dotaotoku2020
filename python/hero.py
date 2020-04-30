@@ -14,6 +14,8 @@ class Hero:
         self.ability_ids = []
         self.talent_ids = {}
         self.imagefile = ""
+        # single stats
+        self.win_stats = 0
         # dict stats
         self.skillstats = {}
         self.talentstats = {}
@@ -163,12 +165,23 @@ class Hero:
     def get_pickbans(self, order):
         return self.pickbans[str(order)]
 
+    def add_win_stats(self, is_win):
+        if is_win:
+            self.win_stats += 1
+
     def make_herojson(self):
         output_dict = {}
+        # single info
         output_dict['heroid'] = self.heroid
         output_dict['name'] = self.name
+        output_dict['imagefile'] = self.imagefile
+        # single stats
+        output_dict['win_stats'] = self.win_stats
+        # multi info
         output_dict['ability_ids'] = self.ability_ids
         output_dict['talent_ids'] = self.talent_ids
+        output_dict['hero_role'] = self.hero_role
+        # multi stats
         output_dict['pickbans'] = self.pickbans
         output_dict['skillstats'] = self.skillstats
         output_dict['talentstats'] = self.talentstats
@@ -176,6 +189,4 @@ class Hero:
         output_dict['startitemistats'] = self.startitemstats
         output_dict['purchasestats'] = self.purchasestats
         output_dict['lastneutralitems'] = self.lastneutralitems
-        output_dict['hero_role'] = self.hero_role
-        output_dict['imagefile'] = self.imagefile
         return output_dict

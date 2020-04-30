@@ -4366,6 +4366,8 @@
         "1": {
             "heroid": "1",
             "name": "npc_dota_hero_antimage",
+            "imagefile": "antimage_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5003",
                 "5004",
@@ -4399,6 +4401,13 @@
                     "6607",
                     "6353"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -4836,19 +4845,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "antimage_full"
+            "lastneutralitems": {}
         },
         "2": {
             "heroid": "2",
             "name": "npc_dota_hero_axe",
+            "imagefile": "axe_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5007",
                 "5008",
@@ -4882,6 +4885,13 @@
                     "6608",
                     "6102"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -5319,19 +5329,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "axe_full"
+            "lastneutralitems": {}
         },
         "3": {
             "heroid": "3",
             "name": "npc_dota_hero_bane",
+            "imagefile": "bane_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5014",
                 "5011",
@@ -5366,6 +5370,13 @@
                     "6069",
                     "6609"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -5828,19 +5839,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "bane_full"
+            "lastneutralitems": {}
         },
         "4": {
             "heroid": "4",
             "name": "npc_dota_hero_bloodseeker",
+            "imagefile": "bloodseeker_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5015",
                 "5016",
@@ -5874,6 +5879,13 @@
                     "6230",
                     "6809"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -6311,19 +6323,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "bloodseeker_full"
+            "lastneutralitems": {}
         },
         "5": {
             "heroid": "5",
             "name": "npc_dota_hero_crystal_maiden",
+            "imagefile": "crystal_maiden_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5126",
                 "5127",
@@ -6357,6 +6363,13 @@
                     "6072",
                     "6234"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -6794,19 +6807,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "crystal_maiden_full"
+            "lastneutralitems": {}
         },
         "6": {
             "heroid": "6",
             "name": "npc_dota_hero_drow_ranger",
+            "imagefile": "drow_ranger_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5019",
                 "5632",
@@ -6840,6 +6847,13 @@
                     "6280",
                     "6445"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -7277,19 +7291,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "drow_ranger_full"
+            "lastneutralitems": {}
         },
         "7": {
             "heroid": "7",
             "name": "npc_dota_hero_earthshaker",
+            "imagefile": "earthshaker_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5023",
                 "5024",
@@ -7323,6 +7331,13 @@
                     "6641",
                     "6035"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": true,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -7864,19 +7879,13 @@
                 "102": 1,
                 "58": 1,
                 "7": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": true,
-                "pos5": true
-            },
-            "imagefile": "earthshaker_full"
+            }
         },
         "8": {
             "heroid": "8",
             "name": "npc_dota_hero_juggernaut",
+            "imagefile": "juggernaut_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5028",
                 "5029",
@@ -7910,6 +7919,13 @@
                     "6377",
                     "6662"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -8372,19 +8388,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "juggernaut_full"
+            "lastneutralitems": {}
         },
         "9": {
             "heroid": "9",
             "name": "npc_dota_hero_mirana",
+            "imagefile": "mirana_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5051",
                 "5048",
@@ -8418,6 +8428,13 @@
                     "6242",
                     "6692"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": true,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -8855,19 +8872,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": true,
-                "pos5": false
-            },
-            "imagefile": "mirana_full"
+            "lastneutralitems": {}
         },
         "10": {
             "heroid": "10",
             "name": "npc_dota_hero_morphling",
+            "imagefile": "morphling_full",
+            "win_stats": 1,
             "ability_ids": [
                 "5052",
                 "5053",
@@ -8903,6 +8914,13 @@
                     "7052",
                     "6698"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -9552,19 +9570,13 @@
                 "68": 1,
                 "129": 1,
                 "41": 1
-            },
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "morphling_full"
+            }
         },
         "11": {
             "heroid": "11",
             "name": "npc_dota_hero_nevermore",
+            "imagefile": "nevermore_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5059",
                 "5060",
@@ -9598,6 +9610,13 @@
                     "6912",
                     "6445"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -10060,19 +10079,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "nevermore_full"
+            "lastneutralitems": {}
         },
         "12": {
             "heroid": "12",
             "name": "npc_dota_hero_phantom_lancer",
+            "imagefile": "phantom_lancer_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5065",
                 "5066",
@@ -10106,6 +10119,13 @@
                     "6850",
                     "445"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -10543,19 +10563,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "phantom_lancer_full"
+            "lastneutralitems": {}
         },
         "13": {
             "heroid": "13",
             "name": "npc_dota_hero_puck",
+            "imagefile": "puck_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5069",
                 "5071",
@@ -10589,6 +10603,13 @@
                     "407",
                     "6855"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": true,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -11051,19 +11072,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": true,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "puck_full"
+            "lastneutralitems": {}
         },
         "14": {
             "heroid": "14",
             "name": "npc_dota_hero_pudge",
+            "imagefile": "pudge_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5075",
                 "5076",
@@ -11097,6 +11112,13 @@
                     "6506",
                     "6023"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": true,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -11559,19 +11581,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": true,
-                "pos5": false
-            },
-            "imagefile": "pudge_full"
+            "lastneutralitems": {}
         },
         "15": {
             "heroid": "15",
             "name": "npc_dota_hero_razor",
+            "imagefile": "razor_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5082",
                 "5083",
@@ -11605,6 +11621,13 @@
                     "6037",
                     "6861"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -12042,19 +12065,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "razor_full"
+            "lastneutralitems": {}
         },
         "16": {
             "heroid": "16",
             "name": "npc_dota_hero_sand_king",
+            "imagefile": "sand_king_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5102",
                 "5103",
@@ -12088,6 +12105,13 @@
                     "6302",
                     "6872"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -12525,19 +12549,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "sand_king_full"
+            "lastneutralitems": {}
         },
         "17": {
             "heroid": "17",
             "name": "npc_dota_hero_storm_spirit",
+            "imagefile": "storm_spirit_full",
+            "win_stats": 1,
             "ability_ids": [
                 "5098",
                 "5099",
@@ -12571,6 +12589,13 @@
                     "6907",
                     "6908"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -13307,19 +13332,13 @@
                 "102": 1,
                 "58": 1,
                 "7": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "storm_spirit_full"
+            }
         },
         "18": {
             "heroid": "18",
             "name": "npc_dota_hero_sven",
+            "imagefile": "sven_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5094",
                 "5095",
@@ -13353,6 +13372,13 @@
                     "6910",
                     "7112"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -13790,19 +13816,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "sven_full"
+            "lastneutralitems": {}
         },
         "19": {
             "heroid": "19",
             "name": "npc_dota_hero_tiny",
+            "imagefile": "tiny_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5106",
                 "5107",
@@ -13837,6 +13857,13 @@
                     "6933",
                     "6932"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": true,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -14324,19 +14351,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": true,
-                "pos5": false
-            },
-            "imagefile": "tiny_full"
+            "lastneutralitems": {}
         },
         "20": {
             "heroid": "20",
             "name": "npc_dota_hero_vengefulspirit",
+            "imagefile": "vengefulspirit_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5122",
                 "5124",
@@ -14370,6 +14391,13 @@
                     "323",
                     "6057"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -14807,19 +14835,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "vengefulspirit_full"
+            "lastneutralitems": {}
         },
         "21": {
             "heroid": "21",
             "name": "npc_dota_hero_windrunner",
+            "imagefile": "windrunner_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5130",
                 "5131",
@@ -14853,6 +14875,13 @@
                     "6144",
                     "6561"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": true,
+                "pos3": false,
+                "pos4": true,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -15290,19 +15319,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": true,
-                "pos3": false,
-                "pos4": true,
-                "pos5": false
-            },
-            "imagefile": "windrunner_full"
+            "lastneutralitems": {}
         },
         "22": {
             "heroid": "22",
             "name": "npc_dota_hero_zuus",
+            "imagefile": "zuus_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5110",
                 "5111",
@@ -15336,6 +15359,13 @@
                     "7117",
                     "6501"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -15798,19 +15828,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "zuus_full"
+            "lastneutralitems": {}
         },
         "23": {
             "heroid": "23",
             "name": "npc_dota_hero_kunkka",
+            "imagefile": "kunkka_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5031",
                 "5032",
@@ -15845,6 +15869,13 @@
                     "6666",
                     "6667"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -16332,19 +16363,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "kunkka_full"
+            "lastneutralitems": {}
         },
         "25": {
             "heroid": "25",
             "name": "npc_dota_hero_lina",
+            "imagefile": "lina_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5040",
                 "5041",
@@ -16378,6 +16403,13 @@
                     "6212",
                     "6186"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": true,
+                "pos3": false,
+                "pos4": true,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -16815,19 +16847,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": true,
-                "pos3": false,
-                "pos4": true,
-                "pos5": false
-            },
-            "imagefile": "lina_full"
+            "lastneutralitems": {}
         },
         "26": {
             "heroid": "26",
             "name": "npc_dota_hero_lion",
+            "imagefile": "lion_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5044",
                 "5045",
@@ -16861,6 +16887,13 @@
                     "6389",
                     "6678"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": true,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -17298,19 +17331,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": true,
-                "pos5": true
-            },
-            "imagefile": "lion_full"
+            "lastneutralitems": {}
         },
         "27": {
             "heroid": "27",
             "name": "npc_dota_hero_shadow_shaman",
+            "imagefile": "shadow_shaman_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5078",
                 "5079",
@@ -17344,6 +17371,13 @@
                     "6502",
                     "6521"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": true,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -17781,19 +17815,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": true,
-                "pos5": true
-            },
-            "imagefile": "shadow_shaman_full"
+            "lastneutralitems": {}
         },
         "28": {
             "heroid": "28",
             "name": "npc_dota_hero_slardar",
+            "imagefile": "slardar_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5114",
                 "5115",
@@ -17827,6 +17855,13 @@
                     "7871",
                     "6890"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -18264,19 +18299,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "slardar_full"
+            "lastneutralitems": {}
         },
         "29": {
             "heroid": "29",
             "name": "npc_dota_hero_tidehunter",
+            "imagefile": "tidehunter_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5118",
                 "5119",
@@ -18310,6 +18339,13 @@
                     "6222",
                     "6556"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -18747,19 +18783,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "tidehunter_full"
+            "lastneutralitems": {}
         },
         "30": {
             "heroid": "30",
             "name": "npc_dota_hero_witch_doctor",
+            "imagefile": "witch_doctor_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5138",
                 "5139",
@@ -18793,6 +18823,13 @@
                     "6298",
                     "6996"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -19230,19 +19267,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "witch_doctor_full"
+            "lastneutralitems": {}
         },
         "31": {
             "heroid": "31",
             "name": "npc_dota_hero_lich",
+            "imagefile": "lich_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5134",
                 "5136",
@@ -19276,6 +19307,13 @@
                     "6039",
                     "318"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -19713,19 +19751,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "lich_full"
+            "lastneutralitems": {}
         },
         "32": {
             "heroid": "32",
             "name": "npc_dota_hero_riki",
+            "imagefile": "riki_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5142",
                 "5143",
@@ -19759,6 +19791,13 @@
                     "347",
                     "6867"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -20196,19 +20235,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "riki_full"
+            "lastneutralitems": {}
         },
         "33": {
             "heroid": "33",
             "name": "npc_dota_hero_enigma",
+            "imagefile": "enigma_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5146",
                 "5147",
@@ -20242,6 +20275,13 @@
                     "6510",
                     "6065"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": true,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -20906,19 +20946,13 @@
                 "79": 1,
                 "36": 1,
                 "49": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": true,
-                "pos5": false
-            },
-            "imagefile": "enigma_full"
+            }
         },
         "34": {
             "heroid": "34",
             "name": "npc_dota_hero_tinker",
+            "imagefile": "tinker_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5150",
                 "5151",
@@ -20952,6 +20986,13 @@
                     "6152",
                     "6953"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -21389,19 +21430,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "tinker_full"
+            "lastneutralitems": {}
         },
         "35": {
             "heroid": "35",
             "name": "npc_dota_hero_sniper",
+            "imagefile": "sniper_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5154",
                 "5155",
@@ -21435,6 +21470,13 @@
                     "5944",
                     "6198"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -21872,19 +21914,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "sniper_full"
+            "lastneutralitems": {}
         },
         "36": {
             "heroid": "36",
             "name": "npc_dota_hero_necrolyte",
+            "imagefile": "necrolyte_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5158",
                 "5160",
@@ -21918,6 +21954,13 @@
                     "6703",
                     "6010"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -22489,19 +22532,13 @@
                 "111": 1,
                 "38": 1,
                 "49": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "necrolyte_full"
+            }
         },
         "37": {
             "heroid": "37",
             "name": "npc_dota_hero_warlock",
+            "imagefile": "warlock_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5162",
                 "5163",
@@ -22535,6 +22572,13 @@
                     "6054",
                     "6053"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -22972,19 +23016,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "warlock_full"
+            "lastneutralitems": {}
         },
         "38": {
             "heroid": "38",
             "name": "npc_dota_hero_beastmaster",
+            "imagefile": "beastmaster_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5168",
                 "7230",
@@ -23018,6 +23056,13 @@
                     "6612",
                     "6611"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -23665,19 +23710,13 @@
                 "79": 1,
                 "36": 1,
                 "49": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "beastmaster_full"
+            }
         },
         "39": {
             "heroid": "39",
             "name": "npc_dota_hero_queenofpain",
+            "imagefile": "queenofpain_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5173",
                 "5174",
@@ -23711,6 +23750,13 @@
                     "6856",
                     "7034"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -24148,19 +24194,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "queenofpain_full"
+            "lastneutralitems": {}
         },
         "40": {
             "heroid": "40",
             "name": "npc_dota_hero_venomancer",
+            "imagefile": "venomancer_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5178",
                 "5179",
@@ -24194,6 +24234,13 @@
                     "6999",
                     "6058"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -24631,19 +24678,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "venomancer_full"
+            "lastneutralitems": {}
         },
         "41": {
             "heroid": "41",
             "name": "npc_dota_hero_faceless_void",
+            "imagefile": "faceless_void_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5182",
                 "5691",
@@ -24677,6 +24718,13 @@
                     "7001",
                     "6651"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -25244,19 +25292,13 @@
                 "68": 1,
                 "129": 1,
                 "41": 1
-            },
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "faceless_void_full"
+            }
         },
         "42": {
             "heroid": "42",
             "name": "npc_dota_hero_skeleton_king",
+            "imagefile": "skeleton_king_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5086",
                 "5087",
@@ -25290,6 +25332,13 @@
                     "6088",
                     "6566"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -25727,19 +25776,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "skeleton_king_full"
+            "lastneutralitems": {}
         },
         "43": {
             "heroid": "43",
             "name": "npc_dota_hero_death_prophet",
+            "imagefile": "death_prophet_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5090",
                 "5091",
@@ -25773,6 +25816,13 @@
                     "6805",
                     "6191"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -26210,19 +26260,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "death_prophet_full"
+            "lastneutralitems": {}
         },
         "44": {
             "heroid": "44",
             "name": "npc_dota_hero_phantom_assassin",
+            "imagefile": "phantom_assassin_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5190",
                 "5191",
@@ -26256,6 +26300,13 @@
                     "6847",
                     "6192"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -26693,19 +26744,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "phantom_assassin_full"
+            "lastneutralitems": {}
         },
         "45": {
             "heroid": "45",
             "name": "npc_dota_hero_pugna",
+            "imagefile": "pugna_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5186",
                 "5187",
@@ -26739,6 +26784,13 @@
                     "6238",
                     "6403"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": true,
+                "pos3": false,
+                "pos4": true,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -27176,19 +27228,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": true,
-                "pos3": false,
-                "pos4": true,
-                "pos5": true
-            },
-            "imagefile": "pugna_full"
+            "lastneutralitems": {}
         },
         "46": {
             "heroid": "46",
             "name": "npc_dota_hero_templar_assassin",
+            "imagefile": "templar_assassin_full",
+            "win_stats": 1,
             "ability_ids": [
                 "5194",
                 "5195",
@@ -27222,6 +27268,13 @@
                     "7371",
                     "6071"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -27827,19 +27880,13 @@
                 "102": 1,
                 "58": 1,
                 "7": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "templar_assassin_full"
+            }
         },
         "47": {
             "heroid": "47",
             "name": "npc_dota_hero_viper",
+            "imagefile": "viper_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5218",
                 "5219",
@@ -27873,6 +27920,13 @@
                     "6819",
                     "6820"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -28310,19 +28364,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "viper_full"
+            "lastneutralitems": {}
         },
         "48": {
             "heroid": "48",
             "name": "npc_dota_hero_luna",
+            "imagefile": "luna_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5222",
                 "5223",
@@ -28356,6 +28404,13 @@
                     "8011",
                     "7055"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -28793,19 +28848,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "luna_full"
+            "lastneutralitems": {}
         },
         "49": {
             "heroid": "49",
             "name": "npc_dota_hero_dragon_knight",
+            "imagefile": "dragon_knight_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5226",
                 "5227",
@@ -28839,6 +28888,13 @@
                     "6090",
                     "6635"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -29403,19 +29459,13 @@
                 "111": 1,
                 "38": 1,
                 "49": 1
-            },
-            "hero_role": {
-                "pos1": true,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "dragon_knight_full"
+            }
         },
         "50": {
             "heroid": "50",
             "name": "npc_dota_hero_dazzle",
+            "imagefile": "dazzle_full",
+            "win_stats": 1,
             "ability_ids": [
                 "5233",
                 "5234",
@@ -29449,6 +29499,13 @@
                     "6049",
                     "6626"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -30051,19 +30108,13 @@
                 "111": 1,
                 "120": 1,
                 "99": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "dazzle_full"
+            }
         },
         "51": {
             "heroid": "51",
             "name": "npc_dota_hero_rattletrap",
+            "imagefile": "rattletrap_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5237",
                 "5238",
@@ -30097,6 +30148,13 @@
                     "6641",
                     "5977"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": true,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -30559,19 +30617,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": true,
-                "pos5": false
-            },
-            "imagefile": "rattletrap_full"
+            "lastneutralitems": {}
         },
         "52": {
             "heroid": "52",
             "name": "npc_dota_hero_leshrac",
+            "imagefile": "leshrac_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5241",
                 "5242",
@@ -30605,6 +30657,13 @@
                     "6063",
                     "6240"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -31042,19 +31101,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "leshrac_full"
+            "lastneutralitems": {}
         },
         "53": {
             "heroid": "53",
             "name": "npc_dota_hero_furion",
+            "imagefile": "furion_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5245",
                 "5246",
@@ -31088,6 +31141,13 @@
                     "6539",
                     "6084"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -31525,19 +31585,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "furion_full"
+            "lastneutralitems": {}
         },
         "54": {
             "heroid": "54",
             "name": "npc_dota_hero_life_stealer",
+            "imagefile": "life_stealer_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5249",
                 "5250",
@@ -31572,6 +31626,13 @@
                     "7012",
                     "6173"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -32034,19 +32095,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "life_stealer_full"
+            "lastneutralitems": {}
         },
         "55": {
             "heroid": "55",
             "name": "npc_dota_hero_dark_seer",
+            "imagefile": "dark_seer_full",
+            "win_stats": 1,
             "ability_ids": [
                 "5255",
                 "5256",
@@ -32080,6 +32135,13 @@
                     "7046",
                     "6624"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -32710,19 +32772,13 @@
                 "111": 1,
                 "38": 1,
                 "49": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "dark_seer_full"
+            }
         },
         "56": {
             "heroid": "56",
             "name": "npc_dota_hero_clinkz",
+            "imagefile": "clinkz_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5262",
                 "5260",
@@ -32756,6 +32812,13 @@
                     "6231",
                     "6620"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -33193,19 +33256,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "clinkz_full"
+            "lastneutralitems": {}
         },
         "57": {
             "heroid": "57",
             "name": "npc_dota_hero_omniknight",
+            "imagefile": "omniknight_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5263",
                 "5264",
@@ -33239,6 +33296,13 @@
                     "5981",
                     "6709"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -33676,19 +33740,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "omniknight_full"
+            "lastneutralitems": {}
         },
         "58": {
             "heroid": "58",
             "name": "npc_dota_hero_enchantress",
+            "imagefile": "enchantress_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5270",
                 "5268",
@@ -33722,6 +33780,13 @@
                     "6515",
                     "6648"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": true,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -34330,19 +34395,13 @@
                 "102": 1,
                 "58": 1,
                 "7": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": true,
-                "pos5": false
-            },
-            "imagefile": "enchantress_full"
+            }
         },
         "59": {
             "heroid": "59",
             "name": "npc_dota_hero_huskar",
+            "imagefile": "huskar_full",
+            "win_stats": 0,
             "ability_ids": [
                 "7300",
                 "5272",
@@ -34376,6 +34435,13 @@
                     "6186",
                     "7143"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -34813,19 +34879,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "huskar_full"
+            "lastneutralitems": {}
         },
         "60": {
             "heroid": "60",
             "name": "npc_dota_hero_night_stalker",
+            "imagefile": "night_stalker_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5275",
                 "5276",
@@ -34859,6 +34919,13 @@
                     "6704",
                     "6129"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -35296,19 +35363,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "night_stalker_full"
+            "lastneutralitems": {}
         },
         "61": {
             "heroid": "61",
             "name": "npc_dota_hero_broodmother",
+            "imagefile": "broodmother_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5279",
                 "5280",
@@ -35342,6 +35403,13 @@
                     "6257",
                     "6258"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -35779,19 +35847,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "broodmother_full"
+            "lastneutralitems": {}
         },
         "62": {
             "heroid": "62",
             "name": "npc_dota_hero_bounty_hunter",
+            "imagefile": "bounty_hunter_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5285",
                 "5286",
@@ -35825,6 +35887,13 @@
                     "6613",
                     "7040"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -36262,19 +36331,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "bounty_hunter_full"
+            "lastneutralitems": {}
         },
         "63": {
             "heroid": "63",
             "name": "npc_dota_hero_weaver",
+            "imagefile": "weaver_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5289",
                 "5290",
@@ -36308,6 +36371,13 @@
                     "6131",
                     "6990"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -36745,19 +36815,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "weaver_full"
+            "lastneutralitems": {}
         },
         "64": {
             "heroid": "64",
             "name": "npc_dota_hero_jakiro",
+            "imagefile": "jakiro_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5297",
                 "5298",
@@ -36791,6 +36855,13 @@
                     "6538",
                     "6064"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -37228,19 +37299,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "jakiro_full"
+            "lastneutralitems": {}
         },
         "65": {
             "heroid": "65",
             "name": "npc_dota_hero_batrider",
+            "imagefile": "batrider_full",
+            "win_stats": 1,
             "ability_ids": [
                 "5320",
                 "5321",
@@ -37274,6 +37339,13 @@
                     "6087",
                     "6229"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -37841,19 +37913,13 @@
                 "102": 1,
                 "58": 1,
                 "7": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "batrider_full"
+            }
         },
         "66": {
             "heroid": "66",
             "name": "npc_dota_hero_chen",
+            "imagefile": "chen_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5328",
                 "5330",
@@ -37887,6 +37953,13 @@
                     "6259",
                     "6260"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -38324,19 +38397,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "chen_full"
+            "lastneutralitems": {}
         },
         "67": {
             "heroid": "67",
             "name": "npc_dota_hero_spectre",
+            "imagefile": "spectre_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5334",
                 "5335",
@@ -38370,6 +38437,13 @@
                     "6902",
                     "6903"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -38832,19 +38906,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "spectre_full"
+            "lastneutralitems": {}
         },
         "68": {
             "heroid": "68",
             "name": "npc_dota_hero_ancient_apparition",
+            "imagefile": "ancient_apparition_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5345",
                 "5346",
@@ -38879,6 +38947,13 @@
                     "7106",
                     "6810"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -39526,19 +39601,13 @@
                 "68": 1,
                 "129": 1,
                 "41": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "ancient_apparition_full"
+            }
         },
         "69": {
             "heroid": "69",
             "name": "npc_dota_hero_doom_bringer",
+            "imagefile": "doom_bringer_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5339",
                 "5340",
@@ -39572,6 +39641,13 @@
                     "6073",
                     "7670"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -40034,19 +40110,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "doom_bringer_full"
+            "lastneutralitems": {}
         },
         "70": {
             "heroid": "70",
             "name": "npc_dota_hero_ursa",
+            "imagefile": "ursa_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5357",
                 "5358",
@@ -40080,6 +40150,13 @@
                     "6976",
                     "424"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -40517,19 +40594,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "ursa_full"
+            "lastneutralitems": {}
         },
         "71": {
             "heroid": "71",
             "name": "npc_dota_hero_spirit_breaker",
+            "imagefile": "spirit_breaker_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5353",
                 "7301",
@@ -40563,6 +40634,13 @@
                     "6149",
                     "6905"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -41000,19 +41078,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "spirit_breaker_full"
+            "lastneutralitems": {}
         },
         "72": {
             "heroid": "72",
             "name": "npc_dota_hero_gyrocopter",
+            "imagefile": "gyrocopter_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5361",
                 "5362",
@@ -41046,6 +41118,13 @@
                     "6216",
                     "6654"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -41483,19 +41562,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "gyrocopter_full"
+            "lastneutralitems": {}
         },
         "73": {
             "heroid": "73",
             "name": "npc_dota_hero_alchemist",
+            "imagefile": "alchemist_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5365",
                 "5366",
@@ -41530,6 +41603,13 @@
                     "351",
                     "7054"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -41992,19 +42072,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "alchemist_full"
+            "lastneutralitems": {}
         },
         "74": {
             "heroid": "74",
             "name": "npc_dota_hero_invoker",
+            "imagefile": "invoker_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5370",
                 "5371",
@@ -42064,6 +42138,13 @@
                 "8": [
                     "315"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -42911,19 +42992,13 @@
                 "68": 1,
                 "129": 1,
                 "41": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "invoker_full"
+            }
         },
         "75": {
             "heroid": "75",
             "name": "npc_dota_hero_silencer",
+            "imagefile": "silencer_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5377",
                 "5378",
@@ -42957,6 +43032,13 @@
                     "6879",
                     "6880"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -43723,19 +43805,13 @@
                 "111": 1,
                 "120": 1,
                 "99": 1
-            },
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "silencer_full"
+            }
         },
         "76": {
             "heroid": "76",
             "name": "npc_dota_hero_obsidian_destroyer",
+            "imagefile": "obsidian_destroyer_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5391",
                 "5392",
@@ -43769,6 +43845,13 @@
                     "6241",
                     "6550"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -44206,19 +44289,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "obsidian_destroyer_full"
+            "lastneutralitems": {}
         },
         "77": {
             "heroid": "77",
             "name": "npc_dota_hero_lycan",
+            "imagefile": "lycan_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5395",
                 "5396",
@@ -44252,6 +44329,13 @@
                     "6140",
                     "6685"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 1,
@@ -44714,19 +44798,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "lycan_full"
+            "lastneutralitems": {}
         },
         "78": {
             "heroid": "78",
             "name": "npc_dota_hero_brewmaster",
+            "imagefile": "brewmaster_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5400",
                 "7310",
@@ -44760,6 +44838,13 @@
                     "6359",
                     "6614"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -45197,19 +45282,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "brewmaster_full"
+            "lastneutralitems": {}
         },
         "79": {
             "heroid": "79",
             "name": "npc_dota_hero_shadow_demon",
+            "imagefile": "shadow_demon_full",
+            "win_stats": 2,
             "ability_ids": [
                 "5421",
                 "5422",
@@ -45243,6 +45322,13 @@
                     "6208",
                     "7118"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": true,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -45992,19 +46078,13 @@
                 "111": 1,
                 "38": 1,
                 "49": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": true,
-                "pos5": true
-            },
-            "imagefile": "shadow_demon_full"
+            }
         },
         "80": {
             "heroid": "80",
             "name": "npc_dota_hero_lone_druid",
+            "imagefile": "lone_druid_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5412",
                 "7309",
@@ -46038,6 +46118,13 @@
                     "7382",
                     "6680"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -46475,19 +46562,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "lone_druid_full"
+            "lastneutralitems": {}
         },
         "81": {
             "heroid": "81",
             "name": "npc_dota_hero_chaos_knight",
+            "imagefile": "chaos_knight_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5426",
                 "5427",
@@ -46521,6 +46602,13 @@
                     "6618",
                     "6619"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -46958,19 +47046,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "chaos_knight_full"
+            "lastneutralitems": {}
         },
         "82": {
             "heroid": "82",
             "name": "npc_dota_hero_meepo",
+            "imagefile": "meepo_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5430",
                 "5431",
@@ -47004,6 +47086,13 @@
                     "5976",
                     "6288"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -47441,19 +47530,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "meepo_full"
+            "lastneutralitems": {}
         },
         "83": {
             "heroid": "83",
             "name": "npc_dota_hero_treant",
+            "imagefile": "treant_full",
+            "win_stats": 0,
             "ability_ids": [
                 "338",
                 "5435",
@@ -47487,6 +47570,13 @@
                     "342",
                     "7115"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -47949,19 +48039,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "treant_full"
+            "lastneutralitems": {}
         },
         "84": {
             "heroid": "84",
             "name": "npc_dota_hero_ogre_magi",
+            "imagefile": "ogre_magi_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5438",
                 "5439",
@@ -47995,6 +48079,13 @@
                     "6355",
                     "6707"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -48457,19 +48548,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "ogre_magi_full"
+            "lastneutralitems": {}
         },
         "85": {
             "heroid": "85",
             "name": "npc_dota_hero_undying",
+            "imagefile": "undying_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5442",
                 "5443",
@@ -48503,6 +48588,13 @@
                     "7385",
                     "6420"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -48940,19 +49032,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "undying_full"
+            "lastneutralitems": {}
         },
         "86": {
             "heroid": "86",
             "name": "npc_dota_hero_rubick",
+            "imagefile": "rubick_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5448",
                 "5450",
@@ -48993,6 +49079,13 @@
                 "5": [
                     "6870"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": true,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -49558,19 +49651,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": true,
-                "pos5": false
-            },
-            "imagefile": "rubick_full"
+            "lastneutralitems": {}
         },
         "87": {
             "heroid": "87",
             "name": "npc_dota_hero_disruptor",
+            "imagefile": "disruptor_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5458",
                 "5459",
@@ -49604,6 +49691,13 @@
                     "6630",
                     "6812"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -50041,19 +50135,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "disruptor_full"
+            "lastneutralitems": {}
         },
         "88": {
             "heroid": "88",
             "name": "npc_dota_hero_nyx_assassin",
+            "imagefile": "nyx_assassin_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5462",
                 "5463",
@@ -50088,6 +50176,13 @@
                     "6705",
                     "6814"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": true,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -50575,19 +50670,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": true,
-                "pos5": false
-            },
-            "imagefile": "nyx_assassin_full"
+            "lastneutralitems": {}
         },
         "89": {
             "heroid": "89",
             "name": "npc_dota_hero_naga_siren",
+            "imagefile": "naga_siren_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5467",
                 "5468",
@@ -50622,6 +50711,13 @@
                     "6700",
                     "6701"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -51084,19 +51180,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "naga_siren_full"
+            "lastneutralitems": {}
         },
         "90": {
             "heroid": "90",
             "name": "npc_dota_hero_keeper_of_the_light",
+            "imagefile": "keeper_of_the_light_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5471",
                 "5476",
@@ -51133,6 +51223,13 @@
                     "7398",
                     "6217"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -51645,19 +51742,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "keeper_of_the_light_full"
+            "lastneutralitems": {}
         },
         "91": {
             "heroid": "91",
             "name": "npc_dota_hero_wisp",
+            "imagefile": "wisp_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5485",
                 "5486",
@@ -51693,6 +51784,13 @@
                     "7070",
                     "6808"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": true,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -52180,19 +52278,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": true,
-                "pos5": false
-            },
-            "imagefile": "wisp_full"
+            "lastneutralitems": {}
         },
         "92": {
             "heroid": "92",
             "name": "npc_dota_hero_visage",
+            "imagefile": "visage_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5480",
                 "5481",
@@ -52226,6 +52318,13 @@
                     "6984",
                     "6985"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -52688,19 +52787,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "visage_full"
+            "lastneutralitems": {}
         },
         "93": {
             "heroid": "93",
             "name": "npc_dota_hero_slark",
+            "imagefile": "slark_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5494",
                 "5495",
@@ -52734,6 +52827,13 @@
                     "6893",
                     "6894"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -53171,19 +53271,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "slark_full"
+            "lastneutralitems": {}
         },
         "94": {
             "heroid": "94",
             "name": "npc_dota_hero_medusa",
+            "imagefile": "medusa_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5504",
                 "5505",
@@ -53217,6 +53311,13 @@
                     "6686",
                     "6803"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -53654,19 +53755,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "medusa_full"
+            "lastneutralitems": {}
         },
         "95": {
             "heroid": "95",
             "name": "npc_dota_hero_troll_warlord",
+            "imagefile": "troll_warlord_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5508",
                 "5509",
@@ -53700,6 +53795,13 @@
                     "6154",
                     "6960"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -54162,19 +54264,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "troll_warlord_full"
+            "lastneutralitems": {}
         },
         "96": {
             "heroid": "96",
             "name": "npc_dota_hero_centaur",
+            "imagefile": "centaur_full",
+            "win_stats": 1,
             "ability_ids": [
                 "5514",
                 "5515",
@@ -54208,6 +54304,13 @@
                     "6322",
                     "5988"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -54768,19 +54871,13 @@
                 "68": 1,
                 "129": 1,
                 "41": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "centaur_full"
+            }
         },
         "97": {
             "heroid": "97",
             "name": "npc_dota_hero_magnataur",
+            "imagefile": "magnataur_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5518",
                 "5519",
@@ -54814,6 +54911,13 @@
                     "6390",
                     "6691"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -55251,19 +55355,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "magnataur_full"
+            "lastneutralitems": {}
         },
         "98": {
             "heroid": "98",
             "name": "npc_dota_hero_shredder",
+            "imagefile": "shredder_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5524",
                 "5525",
@@ -55299,6 +55397,13 @@
                     "6223",
                     "6949"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -55811,19 +55916,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "shredder_full"
+            "lastneutralitems": {}
         },
         "99": {
             "heroid": "99",
             "name": "npc_dota_hero_bristleback",
+            "imagefile": "bristleback_full",
+            "win_stats": 1,
             "ability_ids": [
                 "5548",
                 "5549",
@@ -55857,6 +55956,13 @@
                     "6550",
                     "6615"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": true,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -56490,19 +56596,13 @@
                 "111": 1,
                 "120": 1,
                 "99": 1
-            },
-            "hero_role": {
-                "pos1": true,
-                "pos2": true,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "bristleback_full"
+            }
         },
         "100": {
             "heroid": "100",
             "name": "npc_dota_hero_tusk",
+            "imagefile": "tusk_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5565",
                 "5566",
@@ -56537,6 +56637,13 @@
                     "6962",
                     "7891"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": true,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -57177,19 +57284,13 @@
                 "111": 1,
                 "120": 1,
                 "99": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": true,
-                "pos5": false
-            },
-            "imagefile": "tusk_full"
+            }
         },
         "101": {
             "heroid": "101",
             "name": "npc_dota_hero_skywrath_mage",
+            "imagefile": "skywrath_mage_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5581",
                 "5582",
@@ -57223,6 +57324,13 @@
                     "411",
                     "6921"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": true,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -57910,19 +58018,13 @@
                 "102": 1,
                 "58": 1,
                 "7": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": true,
-                "pos5": false
-            },
-            "imagefile": "skywrath_mage_full"
+            }
         },
         "102": {
             "heroid": "102",
             "name": "npc_dota_hero_abaddon",
+            "imagefile": "abaddon_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5585",
                 "5586",
@@ -57956,6 +58058,13 @@
                     "6100",
                     "7335"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -58514,19 +58623,13 @@
                 "102": 1,
                 "58": 1,
                 "7": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "abaddon_full"
+            }
         },
         "103": {
             "heroid": "103",
             "name": "npc_dota_hero_elder_titan",
+            "imagefile": "elder_titan_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5589",
                 "5591",
@@ -58561,6 +58664,13 @@
                     "6720",
                     "7350"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -59023,19 +59133,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "elder_titan_full"
+            "lastneutralitems": {}
         },
         "104": {
             "heroid": "104",
             "name": "npc_dota_hero_legion_commander",
+            "imagefile": "legion_commander_full",
+            "win_stats": 1,
             "ability_ids": [
                 "5595",
                 "5596",
@@ -59069,6 +59173,13 @@
                     "6218",
                     "7395"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -59625,19 +59736,13 @@
                 "111": 1,
                 "38": 1,
                 "49": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "legion_commander_full"
+            }
         },
         "105": {
             "heroid": "105",
             "name": "npc_dota_hero_techies",
+            "imagefile": "techies_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5599",
                 "5600",
@@ -59671,6 +59776,13 @@
                     "7039",
                     "6998"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": true,
+                "pos5": false
             },
             "pickbans": {
                 "0": 3,
@@ -60133,19 +60245,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": true,
-                "pos5": false
-            },
-            "imagefile": "techies_full"
+            "lastneutralitems": {}
         },
         "106": {
             "heroid": "106",
             "name": "npc_dota_hero_ember_spirit",
+            "imagefile": "ember_spirit_full",
+            "win_stats": 2,
             "ability_ids": [
                 "5603",
                 "5604",
@@ -60179,6 +60285,13 @@
                     "7050",
                     "7051"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": true,
+                "pos3": true,
+                "pos4": true,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -60902,19 +61015,13 @@
                 "79": 1,
                 "36": 1,
                 "49": 1
-            },
-            "hero_role": {
-                "pos1": true,
-                "pos2": true,
-                "pos3": true,
-                "pos4": true,
-                "pos5": false
-            },
-            "imagefile": "ember_spirit_full"
+            }
         },
         "107": {
             "heroid": "107",
             "name": "npc_dota_hero_earth_spirit",
+            "imagefile": "earth_spirit_full",
+            "win_stats": 1,
             "ability_ids": [
                 "5608",
                 "5609",
@@ -60948,6 +61055,13 @@
                     "6514",
                     "6640"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": true,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -61568,19 +61682,13 @@
                 "102": 1,
                 "58": 1,
                 "7": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": true,
-                "pos5": false
-            },
-            "imagefile": "earth_spirit_full"
+            }
         },
         "108": {
             "heroid": "108",
             "name": "npc_dota_hero_abyssal_underlord",
+            "imagefile": "abyssal_underlord_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5613",
                 "5614",
@@ -61615,6 +61723,13 @@
                     "6019",
                     "6969"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -62077,19 +62192,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "abyssal_underlord_full"
+            "lastneutralitems": {}
         },
         "109": {
             "heroid": "109",
             "name": "npc_dota_hero_terrorblade",
+            "imagefile": "terrorblade_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5619",
                 "5620",
@@ -62123,6 +62232,13 @@
                     "6107",
                     "6943"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -62585,19 +62701,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "terrorblade_full"
+            "lastneutralitems": {}
         },
         "110": {
             "heroid": "110",
             "name": "npc_dota_hero_phoenix",
+            "imagefile": "phoenix_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5623",
                 "5625",
@@ -62634,6 +62744,13 @@
                     "6227",
                     "6915"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": true,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -63297,19 +63414,13 @@
                 "68": 1,
                 "129": 1,
                 "41": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": true,
-                "pos5": true
-            },
-            "imagefile": "phoenix_full"
+            }
         },
         "111": {
             "heroid": "111",
             "name": "npc_dota_hero_oracle",
+            "imagefile": "oracle_full",
+            "win_stats": 1,
             "ability_ids": [
                 "5637",
                 "5638",
@@ -63343,6 +63454,13 @@
                     "6710",
                     "6206"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -64184,19 +64302,13 @@
                 "79": 1,
                 "36": 1,
                 "49": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "oracle_full"
+            }
         },
         "112": {
             "heroid": "112",
             "name": "npc_dota_hero_winter_wyvern",
+            "imagefile": "winter_wyvern_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5651",
                 "5652",
@@ -64230,6 +64342,13 @@
                     "6523",
                     "6994"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -64667,19 +64786,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "winter_wyvern_full"
+            "lastneutralitems": {}
         },
         "113": {
             "heroid": "113",
             "name": "npc_dota_hero_arc_warden",
+            "imagefile": "arc_warden_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5677",
                 "5678",
@@ -64713,6 +64826,13 @@
                     "6121",
                     "6287"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -65175,19 +65295,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "arc_warden_full"
+            "lastneutralitems": {}
         },
         "114": {
             "heroid": "114",
             "name": "npc_dota_hero_monkey_king",
+            "imagefile": "monkey_king_full",
+            "win_stats": 0,
             "ability_ids": [
                 "5716",
                 "5721",
@@ -65223,6 +65337,13 @@
                     "6697",
                     "7025"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": true,
+                "pos3": false,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -65735,19 +65856,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": true,
-                "pos2": true,
-                "pos3": false,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "monkey_king_full"
+            "lastneutralitems": {}
         },
         "119": {
             "heroid": "119",
             "name": "npc_dota_hero_dark_willow",
+            "imagefile": "dark_willow_full",
+            "win_stats": 0,
             "ability_ids": [
                 "6339",
                 "6341",
@@ -65781,6 +65896,13 @@
                     "7893",
                     "6465"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": true,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -66243,19 +66365,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": true,
-                "pos5": false
-            },
-            "imagefile": "dark_willow_full"
+            "lastneutralitems": {}
         },
         "120": {
             "heroid": "120",
             "name": "npc_dota_hero_pangolier",
+            "imagefile": "pangolier_full",
+            "win_stats": 2,
             "ability_ids": [
                 "6344",
                 "6461",
@@ -66290,6 +66406,13 @@
                     "9061",
                     "9062"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -66968,19 +67091,13 @@
                 "68": 1,
                 "129": 1,
                 "41": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "pangolier_full"
+            }
         },
         "121": {
             "heroid": "121",
             "name": "npc_dota_hero_grimstroke",
+            "imagefile": "grimstroke_full",
+            "win_stats": 2,
             "ability_ids": [
                 "8000",
                 "8006",
@@ -67014,6 +67131,13 @@
                     "8001",
                     "8002"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": false,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -67870,19 +67994,13 @@
                 "111": 1,
                 "38": 1,
                 "49": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": false,
-                "pos5": true
-            },
-            "imagefile": "grimstroke_full"
+            }
         },
         "126": {
             "heroid": "126",
             "name": "npc_dota_hero_void_spirit",
+            "imagefile": "void_spirit_full",
+            "win_stats": 1,
             "ability_ids": [
                 "7701",
                 "6470",
@@ -67916,6 +68034,13 @@
                     "7714",
                     "7708"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": true,
+                "pos3": true,
+                "pos4": true,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -68484,19 +68609,13 @@
                 "68": 1,
                 "129": 1,
                 "41": 1
-            },
-            "hero_role": {
-                "pos1": false,
-                "pos2": true,
-                "pos3": true,
-                "pos4": true,
-                "pos5": false
-            },
-            "imagefile": "void_spirit_full"
+            }
         },
         "128": {
             "heroid": "128",
             "name": "npc_dota_hero_snapfire",
+            "imagefile": "snapfire_full",
+            "win_stats": 0,
             "ability_ids": [
                 "6480",
                 "6483",
@@ -68530,6 +68649,13 @@
                     "6489",
                     "6485"
                 ]
+            },
+            "hero_role": {
+                "pos1": false,
+                "pos2": false,
+                "pos3": false,
+                "pos4": true,
+                "pos5": true
             },
             "pickbans": {
                 "0": 0,
@@ -68992,19 +69118,13 @@
             "lastitems": {},
             "startitemistats": [],
             "purchasestats": {},
-            "lastneutralitems": {},
-            "hero_role": {
-                "pos1": false,
-                "pos2": false,
-                "pos3": false,
-                "pos4": true,
-                "pos5": true
-            },
-            "imagefile": "snapfire_full"
+            "lastneutralitems": {}
         },
         "129": {
             "heroid": "129",
             "name": "npc_dota_hero_mars",
+            "imagefile": "mars_full",
+            "win_stats": 0,
             "ability_ids": [
                 "6583",
                 "6495",
@@ -69038,6 +69158,13 @@
                     "6756",
                     "6766"
                 ]
+            },
+            "hero_role": {
+                "pos1": true,
+                "pos2": true,
+                "pos3": true,
+                "pos4": false,
+                "pos5": false
             },
             "pickbans": {
                 "0": 0,
@@ -69609,15 +69736,7 @@
                 "68": 1,
                 "129": 1,
                 "41": 1
-            },
-            "hero_role": {
-                "pos1": true,
-                "pos2": true,
-                "pos3": true,
-                "pos4": false,
-                "pos5": false
-            },
-            "imagefile": "mars_full"
+            }
         }
     }
 }

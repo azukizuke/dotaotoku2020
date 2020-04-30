@@ -52,6 +52,7 @@ class League:
             self._add_hero_purchaselog(k)
             self._add_hero_startitems(k)
             self._add_hero_lastneutralitems(k)
+            self._add_hero_is_win(k)
 
         # end of match rootin
         self._make_league_pickbans()
@@ -92,7 +93,6 @@ class League:
         for heroid, autorole in autoroles.items():
             self._herojson[str(heroid)].add_autoroles(autorole)
 
-
     def _add_hero_skillstats(self, matchid):
         try:
             skillstats = self._opendotajson.get_match_skillstats(matchid)
@@ -128,6 +128,11 @@ class League:
         lastneutralitems = opendotajson.get_match_lastneutralitems(matchid)
         for heroid, newutralitems in lastneutralitems.items():
             self._herojson[str(heroid)].add_lastneutralitems(lastneutralitems)
+
+    def _add_hero_is_win(self, matchid):
+        is_win_dict = self._opendotajson.get_match_is_win(matchid)
+        for heroid, is_win in is_win_dict.items():
+            self._herojson[str(heroid)].add_win_stats(is_win)
 
     def _add_hero_purchaselog(self, matchid):
         purchaselog = self._opendotajson.get_match_purchaselog(matchid)
