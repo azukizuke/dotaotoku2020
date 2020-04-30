@@ -4,6 +4,12 @@
     "year": 2020,
     "last_matchid": 5366730303,
     "last_unixdate": 1587320945,
+    "duration_arr": [
+        2997,
+        1918,
+        1604,
+        1793
+    ],
     "pickbans": {
         "0": {
             "1": 0,

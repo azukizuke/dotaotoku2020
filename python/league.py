@@ -16,13 +16,18 @@ class League:
         self._indexjson = indexjson
         self._herojson = {}
         # init league stats
+        # single stats
         self._match_num = self._opendotajson.get_match_num()
         self._last_matchid = self._opendotajson.get_last_matchid()
         self._last_unixdate = self._opendotajson.get_last_unixdate()
         self._name = self._opendotajson.get_leaguename()
         self._year = self._make_year_from_lastdate()
+        # arr stats
+        self._duration_arr = []
+        # dict stats
         self._pickbans = {}
         self._pickbans_ranking = {}
+        # output json
         self.leaguejson = {}
 
         # init dictionary
@@ -37,6 +42,7 @@ class League:
         for match_id, v in self._opendotajson.get_details().items():
             self._init_hero_skill_stats(match_id)
             self._init_hero_talent_stats(match_id)
+
         # init allhero skill/talent stats
         for heroid, hero in self._herojson.items():
             hero.init_skillstats()
@@ -44,6 +50,9 @@ class League:
 
         # add
         for k, v in self._opendotajson.get_details().items():
+            # league stats
+            self._add_league_duration_arr(k)
+            # hero stats
             self._add_hero_pickbans(v['picks_bans'])
             self._add_hero_autoroles(k)
             self._add_hero_skillstats(k)
@@ -83,6 +92,10 @@ class League:
         for heroid, talent_arr in talent_stats.items():
             if (not isinstance(talent_arr, type(None))):
                 self._herojson[str(heroid)].add_talent_ids(talent_arr)
+
+    def _add_league_duration_arr(self, match_id):
+        duration = self._opendotajson.get_match_duration(match_id)
+        self._duration_arr.append(duration)
 
     def _add_hero_pickbans(self, pickbans):
         for v in pickbans:
@@ -144,11 +157,15 @@ class League:
             self._herojson[k] = hero.Hero(k, v['name'], self._indexjson)
 
     def _make_leaguejson(self):
+        # single info
         self.leaguejson['name'] = self._name
         self.leaguejson['match_num'] = self._match_num
         self.leaguejson['year'] = self._year
         self.leaguejson['last_matchid'] = self._last_matchid
         self.leaguejson['last_unixdate'] = self._last_unixdate
+        # arr info
+        self.leaguejson['duration_arr'] = self._duration_arr
+        # dict info
         self.leaguejson['pickbans'] = self._pickbans
 
     def _make_herojson(self):

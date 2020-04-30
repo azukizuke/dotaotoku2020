@@ -119,6 +119,10 @@ class OpendotaJson:
             purchaselog[heroid] = player['purchase_log']
         return purchaselog
 
+    def get_match_duration(self, matchid):
+        duration = self.details[matchid]['duration']
+        return duration
+
     def get_match_is_win(self, matchid):
         is_win = {}
         for player in self.details[matchid]['players']:
