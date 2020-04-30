@@ -46,6 +46,7 @@ class League:
         # init allhero skill/talent stats
         for heroid, hero in self._herojson.items():
             hero.init_skillstats()
+            hero.init_skill_stats_fix()
             hero.init_talentstats()
 
         # add
@@ -55,6 +56,7 @@ class League:
             # hero stats
             self._add_hero_pickbans(v['picks_bans'])
             self._add_hero_autoroles(k)
+            # contain fix skill_stats
             self._add_hero_skillstats(k)
             self._add_hero_talentstats(k)
             self._add_hero_lastitems(k)
@@ -112,6 +114,7 @@ class League:
             for heroid, skillarr in skillstats.items():
                 if (not isinstance(skillarr, type(None))):
                     self._herojson[str(heroid)].add_skillstats(skillarr)
+                    self._herojson[str(heroid)].add_skill_stats_fix(skillarr)
         except TypeError:
             traceback.print_exc()
             print("---error add hero skillstat-----------------")

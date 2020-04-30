@@ -6,20 +6,26 @@ import traceback
 
 class Hero:
     def __init__(self, heroid, name, indexjson):
+        # other class
+        self._indexjson = indexjson
+        # single info
         self.heroid = heroid
         self.name = name
-        self._indexjson = indexjson
-        self.pickbans = {}
+        self.imagefile = ""
+        self.localized_name = (self._indexjson.
+                               opendota_heroes[self.heroid]['localized_name'])
+        # single stats
+        self.win_stats = 0
+        # dict info
         self.hero_role = {}
         self.ability_ids = []
         self.talent_ids = {}
-        self.imagefile = ""
-        # single info
-        self.localized_name = self._indexjson.opendota_heroes[self.heroid]['localized_name']
-        # single stats
-        self.win_stats = 0
+        # dict stats
+        self.pickbans = {}
+        self.ability_ids_order = {}
         # dict stats
         self.skillstats = {}
+        self.skill_stats_fix = {}
         self.talentstats = {}
         self.lastitems = {}
         self.lastneutralitems = {}
@@ -64,6 +70,13 @@ class Hero:
                 skillstats[abilityid] = 0
             self.skillstats[i] = skillstats
 
+    def init_skill_stats_fix(self):
+        for abilityid in self.ability_ids:
+            init_dict = {}
+            for level in range(1, 26):
+                init_dict[level] = 0
+            self.skill_stats_fix[abilityid] = init_dict
+
     def init_ability_ids(self):
         abilities = self._indexjson.opendota_hero_abilities
         ability_ids = self._indexjson.opendota_ability_ids
@@ -73,6 +86,12 @@ class Hero:
         for value in abilities[self.name]['talents']:
             ability_id = self._indexjson.get_ability_id(value['name'])
             self.ability_ids.append(ability_id)
+        # make order for favascript
+        self.init_ability_ids_order()
+
+    def init_ability_ids_order(self):
+        for order, ability_id in enumerate(self.ability_ids):
+            self.ability_ids_order[order] = ability_id
 
     def init_talent_ids(self):
         abilities = self._indexjson.opendota_hero_abilities
@@ -116,6 +135,10 @@ class Hero:
     def add_skillstats(self, skillarr):
         for i, skillid in enumerate(skillarr, 1):
             self.skillstats[i][str(skillid)] += 1
+
+    def add_skill_stats_fix(self, skill_arr):
+        for i, skill_id in enumerate(skill_arr, 1):
+            self.skill_stats_fix[str(skill_id)][i] += 1
 
     def add_talentstats(self, talentarr):
         for talent in talentarr:
@@ -182,11 +205,13 @@ class Hero:
         output_dict['win_stats'] = self.win_stats
         # multi info
         output_dict['ability_ids'] = self.ability_ids
+        output_dict['ability_ids_order'] = self.ability_ids_order
         output_dict['talent_ids'] = self.talent_ids
         output_dict['hero_role'] = self.hero_role
         # multi stats
         output_dict['pickbans'] = self.pickbans
         output_dict['skillstats'] = self.skillstats
+        output_dict['skill_stats_fix'] = self.skill_stats_fix
         output_dict['talentstats'] = self.talentstats
         output_dict['lastitems'] = self.lastitems
         output_dict['startitemistats'] = self.startitemstats
