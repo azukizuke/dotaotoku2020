@@ -14,6 +14,8 @@ class Hero:
         self.ability_ids = []
         self.talent_ids = {}
         self.imagefile = ""
+        # single info
+        self.localized_name = self._indexjson.opendota_heroes[self.heroid]['localized_name']
         # single stats
         self.win_stats = 0
         # dict stats
@@ -174,6 +176,7 @@ class Hero:
         # single info
         output_dict['heroid'] = self.heroid
         output_dict['name'] = self.name
+        output_dict['localized_name'] = self.localized_name
         output_dict['imagefile'] = self.imagefile
         # single stats
         output_dict['win_stats'] = self.win_stats

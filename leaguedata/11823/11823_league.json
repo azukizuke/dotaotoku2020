@@ -4366,6 +4366,7 @@
         "1": {
             "heroid": "1",
             "name": "npc_dota_hero_antimage",
+            "localized_name": "Anti-Mage",
             "imagefile": "antimage_full",
             "win_stats": 0,
             "ability_ids": [
@@ -4850,6 +4851,7 @@
         "2": {
             "heroid": "2",
             "name": "npc_dota_hero_axe",
+            "localized_name": "Axe",
             "imagefile": "axe_full",
             "win_stats": 0,
             "ability_ids": [
@@ -5334,6 +5336,7 @@
         "3": {
             "heroid": "3",
             "name": "npc_dota_hero_bane",
+            "localized_name": "Bane",
             "imagefile": "bane_full",
             "win_stats": 0,
             "ability_ids": [
@@ -5844,6 +5847,7 @@
         "4": {
             "heroid": "4",
             "name": "npc_dota_hero_bloodseeker",
+            "localized_name": "Bloodseeker",
             "imagefile": "bloodseeker_full",
             "win_stats": 0,
             "ability_ids": [
@@ -6328,6 +6332,7 @@
         "5": {
             "heroid": "5",
             "name": "npc_dota_hero_crystal_maiden",
+            "localized_name": "Crystal Maiden",
             "imagefile": "crystal_maiden_full",
             "win_stats": 0,
             "ability_ids": [
@@ -6812,6 +6817,7 @@
         "6": {
             "heroid": "6",
             "name": "npc_dota_hero_drow_ranger",
+            "localized_name": "Drow Ranger",
             "imagefile": "drow_ranger_full",
             "win_stats": 0,
             "ability_ids": [
@@ -7296,6 +7302,7 @@
         "7": {
             "heroid": "7",
             "name": "npc_dota_hero_earthshaker",
+            "localized_name": "Earthshaker",
             "imagefile": "earthshaker_full",
             "win_stats": 0,
             "ability_ids": [
@@ -7884,6 +7891,7 @@
         "8": {
             "heroid": "8",
             "name": "npc_dota_hero_juggernaut",
+            "localized_name": "Juggernaut",
             "imagefile": "juggernaut_full",
             "win_stats": 0,
             "ability_ids": [
@@ -8393,6 +8401,7 @@
         "9": {
             "heroid": "9",
             "name": "npc_dota_hero_mirana",
+            "localized_name": "Mirana",
             "imagefile": "mirana_full",
             "win_stats": 0,
             "ability_ids": [
@@ -8877,6 +8886,7 @@
         "10": {
             "heroid": "10",
             "name": "npc_dota_hero_morphling",
+            "localized_name": "Morphling",
             "imagefile": "morphling_full",
             "win_stats": 1,
             "ability_ids": [
@@ -9575,6 +9585,7 @@
         "11": {
             "heroid": "11",
             "name": "npc_dota_hero_nevermore",
+            "localized_name": "Shadow Fiend",
             "imagefile": "nevermore_full",
             "win_stats": 0,
             "ability_ids": [
@@ -10084,6 +10095,7 @@
         "12": {
             "heroid": "12",
             "name": "npc_dota_hero_phantom_lancer",
+            "localized_name": "Phantom Lancer",
             "imagefile": "phantom_lancer_full",
             "win_stats": 0,
             "ability_ids": [
@@ -10568,6 +10580,7 @@
         "13": {
             "heroid": "13",
             "name": "npc_dota_hero_puck",
+            "localized_name": "Puck",
             "imagefile": "puck_full",
             "win_stats": 0,
             "ability_ids": [
@@ -11077,6 +11090,7 @@
         "14": {
             "heroid": "14",
             "name": "npc_dota_hero_pudge",
+            "localized_name": "Pudge",
             "imagefile": "pudge_full",
             "win_stats": 0,
             "ability_ids": [
@@ -11586,6 +11600,7 @@
         "15": {
             "heroid": "15",
             "name": "npc_dota_hero_razor",
+            "localized_name": "Razor",
             "imagefile": "razor_full",
             "win_stats": 0,
             "ability_ids": [
@@ -12070,6 +12085,7 @@
         "16": {
             "heroid": "16",
             "name": "npc_dota_hero_sand_king",
+            "localized_name": "Sand King",
             "imagefile": "sand_king_full",
             "win_stats": 0,
             "ability_ids": [
@@ -12554,6 +12570,7 @@
         "17": {
             "heroid": "17",
             "name": "npc_dota_hero_storm_spirit",
+            "localized_name": "Storm Spirit",
             "imagefile": "storm_spirit_full",
             "win_stats": 1,
             "ability_ids": [
@@ -13337,6 +13354,7 @@
         "18": {
             "heroid": "18",
             "name": "npc_dota_hero_sven",
+            "localized_name": "Sven",
             "imagefile": "sven_full",
             "win_stats": 0,
             "ability_ids": [
@@ -13821,6 +13839,7 @@
         "19": {
             "heroid": "19",
             "name": "npc_dota_hero_tiny",
+            "localized_name": "Tiny",
             "imagefile": "tiny_full",
             "win_stats": 0,
             "ability_ids": [
@@ -14356,6 +14375,7 @@
         "20": {
             "heroid": "20",
             "name": "npc_dota_hero_vengefulspirit",
+            "localized_name": "Vengeful Spirit",
             "imagefile": "vengefulspirit_full",
             "win_stats": 0,
             "ability_ids": [
@@ -14840,6 +14860,7 @@
         "21": {
             "heroid": "21",
             "name": "npc_dota_hero_windrunner",
+            "localized_name": "Windranger",
             "imagefile": "windrunner_full",
             "win_stats": 0,
             "ability_ids": [
@@ -15324,6 +15345,7 @@
         "22": {
             "heroid": "22",
             "name": "npc_dota_hero_zuus",
+            "localized_name": "Zeus",
             "imagefile": "zuus_full",
             "win_stats": 0,
             "ability_ids": [
@@ -15833,6 +15855,7 @@
         "23": {
             "heroid": "23",
             "name": "npc_dota_hero_kunkka",
+            "localized_name": "Kunkka",
             "imagefile": "kunkka_full",
             "win_stats": 0,
             "ability_ids": [
@@ -16368,6 +16391,7 @@
         "25": {
             "heroid": "25",
             "name": "npc_dota_hero_lina",
+            "localized_name": "Lina",
             "imagefile": "lina_full",
             "win_stats": 0,
             "ability_ids": [
@@ -16852,6 +16876,7 @@
         "26": {
             "heroid": "26",
             "name": "npc_dota_hero_lion",
+            "localized_name": "Lion",
             "imagefile": "lion_full",
             "win_stats": 0,
             "ability_ids": [
@@ -17336,6 +17361,7 @@
         "27": {
             "heroid": "27",
             "name": "npc_dota_hero_shadow_shaman",
+            "localized_name": "Shadow Shaman",
             "imagefile": "shadow_shaman_full",
             "win_stats": 0,
             "ability_ids": [
@@ -17820,6 +17846,7 @@
         "28": {
             "heroid": "28",
             "name": "npc_dota_hero_slardar",
+            "localized_name": "Slardar",
             "imagefile": "slardar_full",
             "win_stats": 0,
             "ability_ids": [
@@ -18304,6 +18331,7 @@
         "29": {
             "heroid": "29",
             "name": "npc_dota_hero_tidehunter",
+            "localized_name": "Tidehunter",
             "imagefile": "tidehunter_full",
             "win_stats": 0,
             "ability_ids": [
@@ -18788,6 +18816,7 @@
         "30": {
             "heroid": "30",
             "name": "npc_dota_hero_witch_doctor",
+            "localized_name": "Witch Doctor",
             "imagefile": "witch_doctor_full",
             "win_stats": 0,
             "ability_ids": [
@@ -19272,6 +19301,7 @@
         "31": {
             "heroid": "31",
             "name": "npc_dota_hero_lich",
+            "localized_name": "Lich",
             "imagefile": "lich_full",
             "win_stats": 0,
             "ability_ids": [
@@ -19756,6 +19786,7 @@
         "32": {
             "heroid": "32",
             "name": "npc_dota_hero_riki",
+            "localized_name": "Riki",
             "imagefile": "riki_full",
             "win_stats": 0,
             "ability_ids": [
@@ -20240,6 +20271,7 @@
         "33": {
             "heroid": "33",
             "name": "npc_dota_hero_enigma",
+            "localized_name": "Enigma",
             "imagefile": "enigma_full",
             "win_stats": 0,
             "ability_ids": [
@@ -20951,6 +20983,7 @@
         "34": {
             "heroid": "34",
             "name": "npc_dota_hero_tinker",
+            "localized_name": "Tinker",
             "imagefile": "tinker_full",
             "win_stats": 0,
             "ability_ids": [
@@ -21435,6 +21468,7 @@
         "35": {
             "heroid": "35",
             "name": "npc_dota_hero_sniper",
+            "localized_name": "Sniper",
             "imagefile": "sniper_full",
             "win_stats": 0,
             "ability_ids": [
@@ -21919,6 +21953,7 @@
         "36": {
             "heroid": "36",
             "name": "npc_dota_hero_necrolyte",
+            "localized_name": "Necrophos",
             "imagefile": "necrolyte_full",
             "win_stats": 0,
             "ability_ids": [
@@ -22537,6 +22572,7 @@
         "37": {
             "heroid": "37",
             "name": "npc_dota_hero_warlock",
+            "localized_name": "Warlock",
             "imagefile": "warlock_full",
             "win_stats": 0,
             "ability_ids": [
@@ -23021,6 +23057,7 @@
         "38": {
             "heroid": "38",
             "name": "npc_dota_hero_beastmaster",
+            "localized_name": "Beastmaster",
             "imagefile": "beastmaster_full",
             "win_stats": 0,
             "ability_ids": [
@@ -23715,6 +23752,7 @@
         "39": {
             "heroid": "39",
             "name": "npc_dota_hero_queenofpain",
+            "localized_name": "Queen of Pain",
             "imagefile": "queenofpain_full",
             "win_stats": 0,
             "ability_ids": [
@@ -24199,6 +24237,7 @@
         "40": {
             "heroid": "40",
             "name": "npc_dota_hero_venomancer",
+            "localized_name": "Venomancer",
             "imagefile": "venomancer_full",
             "win_stats": 0,
             "ability_ids": [
@@ -24683,6 +24722,7 @@
         "41": {
             "heroid": "41",
             "name": "npc_dota_hero_faceless_void",
+            "localized_name": "Faceless Void",
             "imagefile": "faceless_void_full",
             "win_stats": 0,
             "ability_ids": [
@@ -25297,6 +25337,7 @@
         "42": {
             "heroid": "42",
             "name": "npc_dota_hero_skeleton_king",
+            "localized_name": "Wraith King",
             "imagefile": "skeleton_king_full",
             "win_stats": 0,
             "ability_ids": [
@@ -25781,6 +25822,7 @@
         "43": {
             "heroid": "43",
             "name": "npc_dota_hero_death_prophet",
+            "localized_name": "Death Prophet",
             "imagefile": "death_prophet_full",
             "win_stats": 0,
             "ability_ids": [
@@ -26265,6 +26307,7 @@
         "44": {
             "heroid": "44",
             "name": "npc_dota_hero_phantom_assassin",
+            "localized_name": "Phantom Assassin",
             "imagefile": "phantom_assassin_full",
             "win_stats": 0,
             "ability_ids": [
@@ -26749,6 +26792,7 @@
         "45": {
             "heroid": "45",
             "name": "npc_dota_hero_pugna",
+            "localized_name": "Pugna",
             "imagefile": "pugna_full",
             "win_stats": 0,
             "ability_ids": [
@@ -27233,6 +27277,7 @@
         "46": {
             "heroid": "46",
             "name": "npc_dota_hero_templar_assassin",
+            "localized_name": "Templar Assassin",
             "imagefile": "templar_assassin_full",
             "win_stats": 1,
             "ability_ids": [
@@ -27885,6 +27930,7 @@
         "47": {
             "heroid": "47",
             "name": "npc_dota_hero_viper",
+            "localized_name": "Viper",
             "imagefile": "viper_full",
             "win_stats": 0,
             "ability_ids": [
@@ -28369,6 +28415,7 @@
         "48": {
             "heroid": "48",
             "name": "npc_dota_hero_luna",
+            "localized_name": "Luna",
             "imagefile": "luna_full",
             "win_stats": 0,
             "ability_ids": [
@@ -28853,6 +28900,7 @@
         "49": {
             "heroid": "49",
             "name": "npc_dota_hero_dragon_knight",
+            "localized_name": "Dragon Knight",
             "imagefile": "dragon_knight_full",
             "win_stats": 0,
             "ability_ids": [
@@ -29464,6 +29512,7 @@
         "50": {
             "heroid": "50",
             "name": "npc_dota_hero_dazzle",
+            "localized_name": "Dazzle",
             "imagefile": "dazzle_full",
             "win_stats": 1,
             "ability_ids": [
@@ -30113,6 +30162,7 @@
         "51": {
             "heroid": "51",
             "name": "npc_dota_hero_rattletrap",
+            "localized_name": "Clockwerk",
             "imagefile": "rattletrap_full",
             "win_stats": 0,
             "ability_ids": [
@@ -30622,6 +30672,7 @@
         "52": {
             "heroid": "52",
             "name": "npc_dota_hero_leshrac",
+            "localized_name": "Leshrac",
             "imagefile": "leshrac_full",
             "win_stats": 0,
             "ability_ids": [
@@ -31106,6 +31157,7 @@
         "53": {
             "heroid": "53",
             "name": "npc_dota_hero_furion",
+            "localized_name": "Nature's Prophet",
             "imagefile": "furion_full",
             "win_stats": 0,
             "ability_ids": [
@@ -31590,6 +31642,7 @@
         "54": {
             "heroid": "54",
             "name": "npc_dota_hero_life_stealer",
+            "localized_name": "Lifestealer",
             "imagefile": "life_stealer_full",
             "win_stats": 0,
             "ability_ids": [
@@ -32100,6 +32153,7 @@
         "55": {
             "heroid": "55",
             "name": "npc_dota_hero_dark_seer",
+            "localized_name": "Dark Seer",
             "imagefile": "dark_seer_full",
             "win_stats": 1,
             "ability_ids": [
@@ -32777,6 +32831,7 @@
         "56": {
             "heroid": "56",
             "name": "npc_dota_hero_clinkz",
+            "localized_name": "Clinkz",
             "imagefile": "clinkz_full",
             "win_stats": 0,
             "ability_ids": [
@@ -33261,6 +33316,7 @@
         "57": {
             "heroid": "57",
             "name": "npc_dota_hero_omniknight",
+            "localized_name": "Omniknight",
             "imagefile": "omniknight_full",
             "win_stats": 0,
             "ability_ids": [
@@ -33745,6 +33801,7 @@
         "58": {
             "heroid": "58",
             "name": "npc_dota_hero_enchantress",
+            "localized_name": "Enchantress",
             "imagefile": "enchantress_full",
             "win_stats": 0,
             "ability_ids": [
@@ -34400,6 +34457,7 @@
         "59": {
             "heroid": "59",
             "name": "npc_dota_hero_huskar",
+            "localized_name": "Huskar",
             "imagefile": "huskar_full",
             "win_stats": 0,
             "ability_ids": [
@@ -34884,6 +34942,7 @@
         "60": {
             "heroid": "60",
             "name": "npc_dota_hero_night_stalker",
+            "localized_name": "Night Stalker",
             "imagefile": "night_stalker_full",
             "win_stats": 0,
             "ability_ids": [
@@ -35368,6 +35427,7 @@
         "61": {
             "heroid": "61",
             "name": "npc_dota_hero_broodmother",
+            "localized_name": "Broodmother",
             "imagefile": "broodmother_full",
             "win_stats": 0,
             "ability_ids": [
@@ -35852,6 +35912,7 @@
         "62": {
             "heroid": "62",
             "name": "npc_dota_hero_bounty_hunter",
+            "localized_name": "Bounty Hunter",
             "imagefile": "bounty_hunter_full",
             "win_stats": 0,
             "ability_ids": [
@@ -36336,6 +36397,7 @@
         "63": {
             "heroid": "63",
             "name": "npc_dota_hero_weaver",
+            "localized_name": "Weaver",
             "imagefile": "weaver_full",
             "win_stats": 0,
             "ability_ids": [
@@ -36820,6 +36882,7 @@
         "64": {
             "heroid": "64",
             "name": "npc_dota_hero_jakiro",
+            "localized_name": "Jakiro",
             "imagefile": "jakiro_full",
             "win_stats": 0,
             "ability_ids": [
@@ -37304,6 +37367,7 @@
         "65": {
             "heroid": "65",
             "name": "npc_dota_hero_batrider",
+            "localized_name": "Batrider",
             "imagefile": "batrider_full",
             "win_stats": 1,
             "ability_ids": [
@@ -37918,6 +37982,7 @@
         "66": {
             "heroid": "66",
             "name": "npc_dota_hero_chen",
+            "localized_name": "Chen",
             "imagefile": "chen_full",
             "win_stats": 0,
             "ability_ids": [
@@ -38402,6 +38467,7 @@
         "67": {
             "heroid": "67",
             "name": "npc_dota_hero_spectre",
+            "localized_name": "Spectre",
             "imagefile": "spectre_full",
             "win_stats": 0,
             "ability_ids": [
@@ -38911,6 +38977,7 @@
         "68": {
             "heroid": "68",
             "name": "npc_dota_hero_ancient_apparition",
+            "localized_name": "Ancient Apparition",
             "imagefile": "ancient_apparition_full",
             "win_stats": 0,
             "ability_ids": [
@@ -39606,6 +39673,7 @@
         "69": {
             "heroid": "69",
             "name": "npc_dota_hero_doom_bringer",
+            "localized_name": "Doom",
             "imagefile": "doom_bringer_full",
             "win_stats": 0,
             "ability_ids": [
@@ -40115,6 +40183,7 @@
         "70": {
             "heroid": "70",
             "name": "npc_dota_hero_ursa",
+            "localized_name": "Ursa",
             "imagefile": "ursa_full",
             "win_stats": 0,
             "ability_ids": [
@@ -40599,6 +40668,7 @@
         "71": {
             "heroid": "71",
             "name": "npc_dota_hero_spirit_breaker",
+            "localized_name": "Spirit Breaker",
             "imagefile": "spirit_breaker_full",
             "win_stats": 0,
             "ability_ids": [
@@ -41083,6 +41153,7 @@
         "72": {
             "heroid": "72",
             "name": "npc_dota_hero_gyrocopter",
+            "localized_name": "Gyrocopter",
             "imagefile": "gyrocopter_full",
             "win_stats": 0,
             "ability_ids": [
@@ -41567,6 +41638,7 @@
         "73": {
             "heroid": "73",
             "name": "npc_dota_hero_alchemist",
+            "localized_name": "Alchemist",
             "imagefile": "alchemist_full",
             "win_stats": 0,
             "ability_ids": [
@@ -42077,6 +42149,7 @@
         "74": {
             "heroid": "74",
             "name": "npc_dota_hero_invoker",
+            "localized_name": "Invoker",
             "imagefile": "invoker_full",
             "win_stats": 0,
             "ability_ids": [
@@ -42997,6 +43070,7 @@
         "75": {
             "heroid": "75",
             "name": "npc_dota_hero_silencer",
+            "localized_name": "Silencer",
             "imagefile": "silencer_full",
             "win_stats": 0,
             "ability_ids": [
@@ -43810,6 +43884,7 @@
         "76": {
             "heroid": "76",
             "name": "npc_dota_hero_obsidian_destroyer",
+            "localized_name": "Outworld Devourer",
             "imagefile": "obsidian_destroyer_full",
             "win_stats": 0,
             "ability_ids": [
@@ -44294,6 +44369,7 @@
         "77": {
             "heroid": "77",
             "name": "npc_dota_hero_lycan",
+            "localized_name": "Lycan",
             "imagefile": "lycan_full",
             "win_stats": 0,
             "ability_ids": [
@@ -44803,6 +44879,7 @@
         "78": {
             "heroid": "78",
             "name": "npc_dota_hero_brewmaster",
+            "localized_name": "Brewmaster",
             "imagefile": "brewmaster_full",
             "win_stats": 0,
             "ability_ids": [
@@ -45287,6 +45364,7 @@
         "79": {
             "heroid": "79",
             "name": "npc_dota_hero_shadow_demon",
+            "localized_name": "Shadow Demon",
             "imagefile": "shadow_demon_full",
             "win_stats": 2,
             "ability_ids": [
@@ -46083,6 +46161,7 @@
         "80": {
             "heroid": "80",
             "name": "npc_dota_hero_lone_druid",
+            "localized_name": "Lone Druid",
             "imagefile": "lone_druid_full",
             "win_stats": 0,
             "ability_ids": [
@@ -46567,6 +46646,7 @@
         "81": {
             "heroid": "81",
             "name": "npc_dota_hero_chaos_knight",
+            "localized_name": "Chaos Knight",
             "imagefile": "chaos_knight_full",
             "win_stats": 0,
             "ability_ids": [
@@ -47051,6 +47131,7 @@
         "82": {
             "heroid": "82",
             "name": "npc_dota_hero_meepo",
+            "localized_name": "Meepo",
             "imagefile": "meepo_full",
             "win_stats": 0,
             "ability_ids": [
@@ -47535,6 +47616,7 @@
         "83": {
             "heroid": "83",
             "name": "npc_dota_hero_treant",
+            "localized_name": "Treant Protector",
             "imagefile": "treant_full",
             "win_stats": 0,
             "ability_ids": [
@@ -48044,6 +48126,7 @@
         "84": {
             "heroid": "84",
             "name": "npc_dota_hero_ogre_magi",
+            "localized_name": "Ogre Magi",
             "imagefile": "ogre_magi_full",
             "win_stats": 0,
             "ability_ids": [
@@ -48553,6 +48636,7 @@
         "85": {
             "heroid": "85",
             "name": "npc_dota_hero_undying",
+            "localized_name": "Undying",
             "imagefile": "undying_full",
             "win_stats": 0,
             "ability_ids": [
@@ -49037,6 +49121,7 @@
         "86": {
             "heroid": "86",
             "name": "npc_dota_hero_rubick",
+            "localized_name": "Rubick",
             "imagefile": "rubick_full",
             "win_stats": 0,
             "ability_ids": [
@@ -49656,6 +49741,7 @@
         "87": {
             "heroid": "87",
             "name": "npc_dota_hero_disruptor",
+            "localized_name": "Disruptor",
             "imagefile": "disruptor_full",
             "win_stats": 0,
             "ability_ids": [
@@ -50140,6 +50226,7 @@
         "88": {
             "heroid": "88",
             "name": "npc_dota_hero_nyx_assassin",
+            "localized_name": "Nyx Assassin",
             "imagefile": "nyx_assassin_full",
             "win_stats": 0,
             "ability_ids": [
@@ -50675,6 +50762,7 @@
         "89": {
             "heroid": "89",
             "name": "npc_dota_hero_naga_siren",
+            "localized_name": "Naga Siren",
             "imagefile": "naga_siren_full",
             "win_stats": 0,
             "ability_ids": [
@@ -51185,6 +51273,7 @@
         "90": {
             "heroid": "90",
             "name": "npc_dota_hero_keeper_of_the_light",
+            "localized_name": "Keeper of the Light",
             "imagefile": "keeper_of_the_light_full",
             "win_stats": 0,
             "ability_ids": [
@@ -51747,6 +51836,7 @@
         "91": {
             "heroid": "91",
             "name": "npc_dota_hero_wisp",
+            "localized_name": "Io",
             "imagefile": "wisp_full",
             "win_stats": 0,
             "ability_ids": [
@@ -52283,6 +52373,7 @@
         "92": {
             "heroid": "92",
             "name": "npc_dota_hero_visage",
+            "localized_name": "Visage",
             "imagefile": "visage_full",
             "win_stats": 0,
             "ability_ids": [
@@ -52792,6 +52883,7 @@
         "93": {
             "heroid": "93",
             "name": "npc_dota_hero_slark",
+            "localized_name": "Slark",
             "imagefile": "slark_full",
             "win_stats": 0,
             "ability_ids": [
@@ -53276,6 +53368,7 @@
         "94": {
             "heroid": "94",
             "name": "npc_dota_hero_medusa",
+            "localized_name": "Medusa",
             "imagefile": "medusa_full",
             "win_stats": 0,
             "ability_ids": [
@@ -53760,6 +53853,7 @@
         "95": {
             "heroid": "95",
             "name": "npc_dota_hero_troll_warlord",
+            "localized_name": "Troll Warlord",
             "imagefile": "troll_warlord_full",
             "win_stats": 0,
             "ability_ids": [
@@ -54269,6 +54363,7 @@
         "96": {
             "heroid": "96",
             "name": "npc_dota_hero_centaur",
+            "localized_name": "Centaur Warrunner",
             "imagefile": "centaur_full",
             "win_stats": 1,
             "ability_ids": [
@@ -54876,6 +54971,7 @@
         "97": {
             "heroid": "97",
             "name": "npc_dota_hero_magnataur",
+            "localized_name": "Magnus",
             "imagefile": "magnataur_full",
             "win_stats": 0,
             "ability_ids": [
@@ -55360,6 +55456,7 @@
         "98": {
             "heroid": "98",
             "name": "npc_dota_hero_shredder",
+            "localized_name": "Timbersaw",
             "imagefile": "shredder_full",
             "win_stats": 0,
             "ability_ids": [
@@ -55921,6 +56018,7 @@
         "99": {
             "heroid": "99",
             "name": "npc_dota_hero_bristleback",
+            "localized_name": "Bristleback",
             "imagefile": "bristleback_full",
             "win_stats": 1,
             "ability_ids": [
@@ -56601,6 +56699,7 @@
         "100": {
             "heroid": "100",
             "name": "npc_dota_hero_tusk",
+            "localized_name": "Tusk",
             "imagefile": "tusk_full",
             "win_stats": 0,
             "ability_ids": [
@@ -57289,6 +57388,7 @@
         "101": {
             "heroid": "101",
             "name": "npc_dota_hero_skywrath_mage",
+            "localized_name": "Skywrath Mage",
             "imagefile": "skywrath_mage_full",
             "win_stats": 0,
             "ability_ids": [
@@ -58023,6 +58123,7 @@
         "102": {
             "heroid": "102",
             "name": "npc_dota_hero_abaddon",
+            "localized_name": "Abaddon",
             "imagefile": "abaddon_full",
             "win_stats": 0,
             "ability_ids": [
@@ -58628,6 +58729,7 @@
         "103": {
             "heroid": "103",
             "name": "npc_dota_hero_elder_titan",
+            "localized_name": "Elder Titan",
             "imagefile": "elder_titan_full",
             "win_stats": 0,
             "ability_ids": [
@@ -59138,6 +59240,7 @@
         "104": {
             "heroid": "104",
             "name": "npc_dota_hero_legion_commander",
+            "localized_name": "Legion Commander",
             "imagefile": "legion_commander_full",
             "win_stats": 1,
             "ability_ids": [
@@ -59741,6 +59844,7 @@
         "105": {
             "heroid": "105",
             "name": "npc_dota_hero_techies",
+            "localized_name": "Techies",
             "imagefile": "techies_full",
             "win_stats": 0,
             "ability_ids": [
@@ -60250,6 +60354,7 @@
         "106": {
             "heroid": "106",
             "name": "npc_dota_hero_ember_spirit",
+            "localized_name": "Ember Spirit",
             "imagefile": "ember_spirit_full",
             "win_stats": 2,
             "ability_ids": [
@@ -61020,6 +61125,7 @@
         "107": {
             "heroid": "107",
             "name": "npc_dota_hero_earth_spirit",
+            "localized_name": "Earth Spirit",
             "imagefile": "earth_spirit_full",
             "win_stats": 1,
             "ability_ids": [
@@ -61687,6 +61793,7 @@
         "108": {
             "heroid": "108",
             "name": "npc_dota_hero_abyssal_underlord",
+            "localized_name": "Underlord",
             "imagefile": "abyssal_underlord_full",
             "win_stats": 0,
             "ability_ids": [
@@ -62197,6 +62304,7 @@
         "109": {
             "heroid": "109",
             "name": "npc_dota_hero_terrorblade",
+            "localized_name": "Terrorblade",
             "imagefile": "terrorblade_full",
             "win_stats": 0,
             "ability_ids": [
@@ -62706,6 +62814,7 @@
         "110": {
             "heroid": "110",
             "name": "npc_dota_hero_phoenix",
+            "localized_name": "Phoenix",
             "imagefile": "phoenix_full",
             "win_stats": 0,
             "ability_ids": [
@@ -63419,6 +63528,7 @@
         "111": {
             "heroid": "111",
             "name": "npc_dota_hero_oracle",
+            "localized_name": "Oracle",
             "imagefile": "oracle_full",
             "win_stats": 1,
             "ability_ids": [
@@ -64307,6 +64417,7 @@
         "112": {
             "heroid": "112",
             "name": "npc_dota_hero_winter_wyvern",
+            "localized_name": "Winter Wyvern",
             "imagefile": "winter_wyvern_full",
             "win_stats": 0,
             "ability_ids": [
@@ -64791,6 +64902,7 @@
         "113": {
             "heroid": "113",
             "name": "npc_dota_hero_arc_warden",
+            "localized_name": "Arc Warden",
             "imagefile": "arc_warden_full",
             "win_stats": 0,
             "ability_ids": [
@@ -65300,6 +65412,7 @@
         "114": {
             "heroid": "114",
             "name": "npc_dota_hero_monkey_king",
+            "localized_name": "Monkey King",
             "imagefile": "monkey_king_full",
             "win_stats": 0,
             "ability_ids": [
@@ -65861,6 +65974,7 @@
         "119": {
             "heroid": "119",
             "name": "npc_dota_hero_dark_willow",
+            "localized_name": "Dark Willow",
             "imagefile": "dark_willow_full",
             "win_stats": 0,
             "ability_ids": [
@@ -66370,6 +66484,7 @@
         "120": {
             "heroid": "120",
             "name": "npc_dota_hero_pangolier",
+            "localized_name": "Pangolier",
             "imagefile": "pangolier_full",
             "win_stats": 2,
             "ability_ids": [
@@ -67096,6 +67211,7 @@
         "121": {
             "heroid": "121",
             "name": "npc_dota_hero_grimstroke",
+            "localized_name": "Grimstroke",
             "imagefile": "grimstroke_full",
             "win_stats": 2,
             "ability_ids": [
@@ -67999,6 +68115,7 @@
         "126": {
             "heroid": "126",
             "name": "npc_dota_hero_void_spirit",
+            "localized_name": "Void Spirit",
             "imagefile": "void_spirit_full",
             "win_stats": 1,
             "ability_ids": [
@@ -68614,6 +68731,7 @@
         "128": {
             "heroid": "128",
             "name": "npc_dota_hero_snapfire",
+            "localized_name": "Snapfire",
             "imagefile": "snapfire_full",
             "win_stats": 0,
             "ability_ids": [
@@ -69123,6 +69241,7 @@
         "129": {
             "heroid": "129",
             "name": "npc_dota_hero_mars",
+            "localized_name": "Mars",
             "imagefile": "mars_full",
             "win_stats": 0,
             "ability_ids": [
