@@ -1,7 +1,6 @@
 # dotasexsex2020
 
-20200413-test-commit
+name change
 
 APIキー外に出したくないので。debug用スクリプトをプロジェクトフォルダ外にうめこんでそこにキーいれます。
 
-あ
