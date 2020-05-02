@@ -76,6 +76,11 @@ class Hero:
             for level in range(1, 26):
                 init_dict[level] = 0
             self.skill_stats_fix[abilityid] = init_dict
+        # init talent id
+        init_dict = {}
+        for level in range(1, 26):
+            init_dict[level] = 0
+        self.skill_stats_fix['-100'] = init_dict
 
     def init_ability_ids(self):
         abilities = self._indexjson.opendota_hero_abilities
@@ -91,7 +96,12 @@ class Hero:
 
     def init_ability_ids_order(self):
         for order, ability_id in enumerate(self.ability_ids):
-            self.ability_ids_order[order] = ability_id
+            # ignore blank skill id or talent id
+            if ability_id != '6251':
+                # ignore talent id
+                if not self._indexjson.is_talent(ability_id):
+                    self.ability_ids_order[order] = ability_id
+        self.ability_ids_order[99999] = '-100'
 
     def init_talent_ids(self):
         abilities = self._indexjson.opendota_hero_abilities
@@ -139,6 +149,8 @@ class Hero:
     def add_skill_stats_fix(self, skill_arr):
         for i, skill_id in enumerate(skill_arr, 1):
             self.skill_stats_fix[str(skill_id)][i] += 1
+            if self._indexjson.is_talent(skill_id):
+                self.skill_stats_fix['-100'][i] += 1
 
     def add_talentstats(self, talentarr):
         for talent in talentarr:

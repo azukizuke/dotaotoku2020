@@ -15,6 +15,11 @@ class Ability:
         for ability_id, ability_name in ability_ids.items():
             self._abilities_dict[ability_id] = {'name': ability_name}
             self._abilities_dict[ability_id]['img'] = ability_name + '_lg'
+        ## talent id
+        self._abilities_dict['-100'] = {
+            'name' : 'talent',
+            'img' : 'talent',
+        }
 
     def make_json(self):
         return self._abilities_dict
