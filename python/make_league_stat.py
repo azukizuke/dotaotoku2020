@@ -6,6 +6,7 @@ import opendotajson
 import indexjson
 import league
 import hero
+import ability
 
 # CONST
 PARENT_LEAGUE_FOLDER = "leaguedata"
