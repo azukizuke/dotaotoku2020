@@ -9,6 +9,7 @@ class IndexJson:
     _OPENDOTA_HERO = "heroes.json"
     _OPENDOTA_HERO_ABILITIES = "hero_abilities.json"
     _OPENDOTA_ABILITY_IDS = "ability_ids.json"
+    _OPENDOTA_ABILITIES = "abilities.json"
     _OPENDOTA_ITEM_IDS = "item_ids.json"
     # self
     _PICKBANS = "pickbans.json"
@@ -25,6 +26,9 @@ class IndexJson:
         self.opendota_ability_ids = self._load_json(
                                     path_opendota_index
                                     / self._OPENDOTA_ABILITY_IDS)
+        self.opendota_abilities = self._load_json(
+                                  path_opendota_index
+                                  / self._OPENDOTA_ABILITIES)
         self.opendota_item_ids = self._load_json(
                                  path_opendota_index
                                  / self._OPENDOTA_ITEM_IDS)
