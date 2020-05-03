@@ -48,6 +48,7 @@ if __name__ == "__main__":
     apikey_steam = sys.argv[2]
     apikey_opendota = sys.argv[3]
     startid = sys.argv[4]
+    end_id = sys.argv[5]
 
     all_league_json = {}
 
@@ -61,16 +62,24 @@ if __name__ == "__main__":
                                     OPENDOTA_INDEX_JSON_FOLDER_PATH)
 
     # steam
-    steamjson = steamjson.SteamJson(leagueid, apikey_steam, startid)
+    steamjson = steamjson.SteamJson(leagueid,
+                                    apikey_steam,
+                                    startid,
+                                    end_id,
+                                    league_folder)
     steamjson.write_json(league_folder)
+    is_matchlist_not_change = steamjson.is_matchlist_not_change(league_folder)
+    if is_matchlist_not_change:
+        print("matchlist is not change, make opendota in local file")
 
     # opendota
     opendotajson = opendotajson.OpendotaJson(leagueid,
                                              apikey_opendota,
                                              steamjson,
-                                             indexjson)
+                                             indexjson,
+                                             league_folder,
+                                             is_matchlist_not_change)
     opendotajson.write_json(league_folder)
-
 
     # make stat
     league = league.League(leagueid, opendotajson, indexjson)

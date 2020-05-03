@@ -7,7 +7,13 @@ class OpendotaJson:
     _OPENDOTAAPI_KEY = "?api_key="
     _FILENAME_SUFFIX = "_opendotaapi.json"
 
-    def __init__(self, leagueid, apikey, steamjson, indexjson):
+    def __init__(self,
+                 leagueid,
+                 apikey,
+                 steamjson,
+                 indexjson,
+                 folder_path,
+                 is_matchlist_not_change):
         # init
         self._leagueid = leagueid
         self._apikey = apikey
@@ -16,7 +22,10 @@ class OpendotaJson:
         self.details = {}
 
         # make opendota json
-        self._make_details()
+        if is_matchlist_not_change:
+            self.details = self.read_json(folder_path)
+        else:
+            self._make_details()
 
     def _make_details(self):
         for matchid in self._steamjson.get_matches().keys():
@@ -41,6 +50,14 @@ class OpendotaJson:
         with open(filepath, mode='w') as f:
             json.dump(self.details, f, indent=4)
 
+    def read_json(self, folder_path):
+        details = {}
+        filename = str(self._leagueid) + self._FILENAME_SUFFIX
+        filepath = folder_path / filename
+        with open(filepath, mode='r') as f:
+            details = json.load(f)
+        return(details)
+
     def get_details(self):
         return self.details
 
@@ -49,6 +66,15 @@ class OpendotaJson:
 
     def get_last_matchid(self):
         return (next(iter(self.details)))
+
+    def get_match_id_arr(self):
+        match_id_arr = []
+        for match_id in self.details.keys():
+            match_id_arr.append(match_id)
+        return match_id_arr
+
+    def get_unixdate_arr(self):
+        return (self._steamjson.get_unixdate_arr())
 
     def get_last_unixdate(self):
         return (self._steamjson.get_last_unixdate())

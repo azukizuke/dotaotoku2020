@@ -25,6 +25,8 @@ class League:
         self._name = self._opendotajson.get_leaguename()
         self._year = self._make_year_from_lastdate()
         # arr stats
+        self._match_id_arr = self._opendotajson.get_match_id_arr()
+        self._unixdate_arr = self._opendotajson.get_unixdate_arr()
         self._duration_arr = []
         # dict stats
         self._pickbans = {}
@@ -51,7 +53,7 @@ class League:
             hero.init_skill_stats_fix()
             hero.init_talentstats()
 
-        # add
+        # add all match rootin
         for k, v in self._opendotajson.get_details().items():
             # league stats
             self._add_league_duration_arr(k)
@@ -69,6 +71,10 @@ class League:
 
         # end of match rootin
         self._make_league_pickbans()
+
+        # end of match all hero rootin
+        for heroid, hero in self._herojson.items():
+            hero.delete_unselect_ability_order()
 
         # make_output_json
         self._make_leaguejson()
@@ -170,6 +176,8 @@ class League:
         self.leaguejson['last_unixdate'] = self._last_unixdate
         # arr info
         self.leaguejson['duration_arr'] = self._duration_arr
+        self.leaguejson['match_id_arr'] = self._match_id_arr
+        self.leaguejson['unixdate_arr'] = self._unixdate_arr
         # dict stats
         self.leaguejson['pickbans'] = self._pickbans
         self.leaguejson['abilities'] = self._ability.make_json()

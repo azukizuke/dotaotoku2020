@@ -103,6 +103,21 @@ class Hero:
                     self.ability_ids_order[order] = ability_id
         self.ability_ids_order[99999] = '-100'
 
+    def delete_unselect_ability_order(self):
+        if self.pickbans['pick'] > 0:
+            delete_order_arr = []
+            for ability_id, count_arr in self.skill_stats_fix.items():
+                count_sum = 0
+                for count in count_arr.values():
+                    count_sum += count
+                if count_sum == 0:
+                    for order, order_ability_id in self.ability_ids_order.items():
+                        if str(ability_id) == str(order_ability_id):
+                            delete_order_arr.append(order)
+            for order in delete_order_arr:
+                self.ability_ids_order.pop(order)
+
+
     def init_talent_ids(self):
         abilities = self._indexjson.opendota_hero_abilities
         ability_ids = self._indexjson.opendota_ability_ids
