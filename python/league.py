@@ -186,6 +186,7 @@ class League:
     def _make_leaguejson(self):
         # single info
         self.leaguejson['name'] = self._name
+        self.leaguejson['league_id'] = self._leagueid
         self.leaguejson['match_num'] = self._match_num
         self.leaguejson['year'] = self._year
         self.leaguejson['last_matchid'] = self._last_matchid
