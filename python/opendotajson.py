@@ -64,6 +64,13 @@ class OpendotaJson:
     def get_match_num(self):
         return len(self.details)
 
+    def get_radiant_win_num(self):
+        radiant_win_num = 0
+        for detail in self.details.values():
+            if detail['radiant_win']:
+                radiant_win_num += 1
+        return radiant_win_num
+
     def get_last_matchid(self):
         return (next(iter(self.details)))
 

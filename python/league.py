@@ -20,6 +20,7 @@ class League:
         # init league stats
         # single stats
         self._match_num = self._opendotajson.get_match_num()
+        self._radiant_win_num = self._opendotajson.get_radiant_win_num()
         self._last_matchid = self._opendotajson.get_last_matchid()
         self._last_unixdate = self._opendotajson.get_last_unixdate()
         self._name = self._opendotajson.get_leaguename()
@@ -188,6 +189,7 @@ class League:
         self.leaguejson['name'] = self._name
         self.leaguejson['league_id'] = self._leagueid
         self.leaguejson['match_num'] = self._match_num
+        self.leaguejson['radiant_win_num'] = self._radiant_win_num
         self.leaguejson['year'] = self._year
         self.leaguejson['last_matchid'] = self._last_matchid
         self.leaguejson['last_unixdate'] = self._last_unixdate
