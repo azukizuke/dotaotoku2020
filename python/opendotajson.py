@@ -131,11 +131,12 @@ class OpendotaJson:
             startitem = []
             heroid = player['hero_id']
             purchaselog = player['purchase_log']
-            for purchase in purchaselog:
-                if purchase['time'] <= 0:
-                    itemid = self._indexjson.get_item_id(purchase['key'])
-                    startitem.append(itemid)
-            startitems[heroid] = sorted(startitem)
+            if not isinstance(purchaselog, type(None)):
+                for purchase in purchaselog:
+                    if purchase['time'] <= 0:
+                        itemid = self._indexjson.get_item_id(purchase['key'])
+                        startitem.append(itemid)
+                startitems[heroid] = sorted(startitem)
         return startitems
 
     def get_match_purchaselog(self, matchid):
@@ -175,9 +176,17 @@ class OpendotaJson:
     def _get_supports(self, players):
         lasthit = {}
         for player in players:
-            heroid = player['hero_id']
-            lh = player['lh_t'][10]
-            lasthit[heroid] = lh
+            try:
+                if not isinstance(player['lh_t'], type(None)):
+                    heroid = player['hero_id']
+                    lh = player['lh_t'][10]
+                    lasthit[heroid] = lh
+            except TypeError:
+                print("---TypeError---")
+                print("---player", player)
+                print("---lh", player['lh_t'])
+                raise
+
         sorted_ranking = sorted(lasthit.items(), key=lambda x: x[1])
         return [sorted_ranking[0][0], sorted_ranking[1][0]]
 
@@ -191,8 +200,9 @@ class OpendotaJson:
     def _get_gold_ranking(self, players):
         networth = {}
         for player in players:
-            heroid = player['hero_id']
-            gold = player['total_gold']
+            if 'total_gold' in player:
+                heroid = player['hero_id']
+                gold = player['total_gold']
             networth[heroid] = gold
         sorted_ranking = sorted(networth.items(),
                                 key=lambda x: x[1],
@@ -217,7 +227,8 @@ class OpendotaJson:
 
         for player in self.details[matchid]['players']:
             heroid = player['hero_id']
-            if heroid not in autorole:
+            if (heroid not in autorole
+               and 'lane_role' in player):
                 if player['lane_role'] == 2:
                     autorole[heroid] = 'pos2'
 

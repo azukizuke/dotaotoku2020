@@ -112,9 +112,19 @@ class League:
             self._herojson[str(v['hero_id'])].add_pickbans(v['order'])
 
     def _add_hero_autoroles(self, matchid):
-        autoroles = self._opendotajson.get_match_autorole(matchid)
-        for heroid, autorole in autoroles.items():
-            self._herojson[str(heroid)].add_autoroles(autorole)
+        try:
+            autoroles = self._opendotajson.get_match_autorole(matchid)
+            for heroid, autorole in autoroles.items():
+                if (not isinstance(autorole, type(None))
+                   and not isinstance(heroid, type(None))):
+                    self._herojson[str(heroid)].add_autoroles(autorole)
+        except KeyError:
+            print("---TypeError---")
+            print("---matchid: ", matchid)
+            print("---autoroles ", autoroles)
+            print("---heroid ", heroid)
+            print("---autorole ", autorole)
+            raise
 
     def _add_hero_skillstats(self, matchid):
         try:
@@ -140,28 +150,34 @@ class League:
     def _add_hero_lastitems(self, matchid):
         lastitems = self._opendotajson.get_match_lastitems(matchid)
         for heroid, itemarr in lastitems.items():
-            self._herojson[str(heroid)].add_lastitems(lastitems)
+            if not isinstance(heroid, type(None)):
+                self._herojson[str(heroid)].add_lastitems(lastitems)
 
     def _add_hero_startitems(self, matchid):
         startitems = self._opendotajson.get_match_startitems(matchid)
         for heroid, startitem in startitems.items():
-            self._herojson[str(heroid)].add_startitems(startitem)
+            if not isinstance(heroid, type(None)):
+                self._herojson[str(heroid)].add_startitems(startitem)
 
     def _add_hero_lastneutralitems(self, matchid):
         opendotajson = self._opendotajson
         lastneutralitems = opendotajson.get_match_lastneutralitems(matchid)
         for heroid, newutralitems in lastneutralitems.items():
-            self._herojson[str(heroid)].add_lastneutralitems(lastneutralitems)
+            if not isinstance(heroid, type(None)):
+                self._herojson[str(heroid)].add_lastneutralitems(lastneutralitems)
 
     def _add_hero_is_win(self, matchid):
         is_win_dict = self._opendotajson.get_match_is_win(matchid)
         for heroid, is_win in is_win_dict.items():
-            self._herojson[str(heroid)].add_win_stats(is_win)
+            if not isinstance(heroid, type(None)):
+                self._herojson[str(heroid)].add_win_stats(is_win)
 
     def _add_hero_purchaselog(self, matchid):
         purchaselog = self._opendotajson.get_match_purchaselog(matchid)
         for heroid, purchase in purchaselog.items():
-            self._herojson[str(heroid)].add_purchaselog(purchase)
+            if (not isinstance(heroid, type(None))
+               and not isinstance(purchase, type(None))):
+                self._herojson[str(heroid)].add_purchaselog(purchase)
 
     def _init_herojson(self):
         for k, v in self._indexjson.opendota_heroes.items():
