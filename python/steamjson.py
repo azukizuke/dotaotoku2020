@@ -95,8 +95,12 @@ class SteamJson:
     def read_old_steam_json(self, folder_path):
         filename = str(self._leagueid) + self._FILENAME_SUFFIX
         filepath = folder_path / filename
-        with open(filepath, mode='r') as f:
-            self.old_match_dict = json.load(f)
+        try:
+            with open(filepath, mode='r') as f:
+                self.old_match_dict = json.load(f)
+        except FileNotFoundError:
+            self.old_match_dict = {}
+            
 
     def is_matchlist_not_change(self,folder_path):
         # because writing encoding diff, reopen new json file
