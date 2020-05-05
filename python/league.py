@@ -152,7 +152,7 @@ class League:
         lastitems = self._opendotajson.get_match_lastitems(matchid)
         for heroid, itemarr in lastitems.items():
             if not isinstance(heroid, type(None)):
-                self._herojson[str(heroid)].add_lastitems(lastitems)
+                self._herojson[str(heroid)].add_lastitems(itemarr)
 
     def _add_hero_startitems(self, matchid):
         startitems = self._opendotajson.get_match_startitems(matchid)
