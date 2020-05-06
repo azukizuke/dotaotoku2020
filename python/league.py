@@ -1,5 +1,6 @@
 import hero
 import ability
+import item
 import json
 import datetime
 import traceback
@@ -17,6 +18,7 @@ class League:
         self._indexjson = indexjson
         self._herojson = {}
         self._ability = ability.Ability(self._indexjson)
+        self._item = item.Item(self._indexjson)
         # init league stats
         # single stats
         self._match_num = self._opendotajson.get_match_num()
@@ -200,6 +202,7 @@ class League:
         # dict stats
         self.leaguejson['pickbans'] = self._pickbans
         self.leaguejson['abilities'] = self._ability.make_json()
+        self.leaguejson['item_dict'] = self._item.make_json()
 
     def _make_herojson(self):
         self.leaguejson['heroes'] = {}
