@@ -242,7 +242,7 @@ class Hero:
         output_dict['skill_stats_fix'] = self.skill_stats_fix
         output_dict['talentstats'] = self.talentstats
         output_dict['lastitems'] = self.lastitems
-        output_dict['startitemistats'] = self.startitemstats
+        output_dict['start_item_stats'] = self.startitemstats
         output_dict['purchasestats'] = self.purchasestats
         output_dict['lastneutralitems'] = self.lastneutralitems
         return output_dict
