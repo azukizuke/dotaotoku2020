@@ -176,10 +176,11 @@ class Hero:
 
     def add_lastitems(self, lastitems):
         for item in lastitems:
-            if item in self.lastitems:
-                self.lastitems[item] += 1
-            else:
-                self.lastitems[item] = 1
+            if item != 0:
+                if item in self.lastitems:
+                    self.lastitems[item] += 1
+                else:
+                    self.lastitems[item] = 1
 
     def add_startitems(self, startitems):
         # startitems count
