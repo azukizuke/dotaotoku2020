@@ -11,6 +11,7 @@ class IndexJson:
     _OPENDOTA_ABILITY_IDS = "ability_ids.json"
     _OPENDOTA_ABILITIES = "abilities.json"
     _OPENDOTA_ITEM_IDS = "item_ids.json"
+    _OPENDOTA_ITEMS = "items.json"
     # self
     _PICKBANS = "pickbans.json"
     _HERO_ROLE = "hero_role.json"
@@ -32,6 +33,9 @@ class IndexJson:
         self.opendota_item_ids = self._load_json(
                                  path_opendota_index
                                  / self._OPENDOTA_ITEM_IDS)
+        self.opendota_items = self._load_json(
+                                 path_opendota_index
+                                 / self._OPENDOTA_ITEMS)
         # original
         self.pickbans = self._load_json(path_index/self._PICKBANS)
         self.hero_role = self._load_json(path_index/self._HERO_ROLE)
@@ -52,10 +56,28 @@ class IndexJson:
             if item == itemname:
                 return(itemid)
 
+    def get_item_cost(self, item_name):
+        return self.opendota_items[item_name]['cost']
+
     def get_ability_name(self, abilityid):
         for _abilityid, _ability in self.opendota_ability_ids.items():
             if str(abilityid) == str(_abilityid):
                 return(_ability)
+
+    def is_item_created(self, item_name):
+        return self.opendota_items[item_name]['created']
+
+    def is_item_consumable(self, item_name):
+        if 'qual' not in self.opendota_items[item_name]:
+            return False
+        try:
+            if self.opendota_items[item_name]['qual'] == 'consumable':
+                return True
+            return False
+        except KeyError:
+            print("---KeyError---")
+            print("---item_name: ",item_name)
+            raise
 
     def is_talent(self, abilityid):
         abilityname = self.get_ability_name(abilityid)

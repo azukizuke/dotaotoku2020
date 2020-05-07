@@ -198,15 +198,23 @@ class Hero:
         self.pickbans[autorole] += 1
 
     def add_purchaselog(self, purchaselog):
-        for i, purchase in enumerate(purchaselog):
-            item = self._indexjson.get_item_id(purchase['key'])
-            if i in self.purchasestats:
-                if item in self.purchasestats[i]:
-                    self.purchasestats[i][item] += 1
-                else:
-                    self.purchasestats[i][item] = 1
-            else:
-                self.purchasestats[i] = {item: 1}
+        i = 0
+        for purchase in purchaselog:
+            if purchase['time'] >= 0:
+                item = self._indexjson.get_item_id(purchase['key'])
+                item_cost = self._indexjson.get_item_cost(purchase['key'])
+                is_created = self._indexjson.is_item_created(purchase['key'])
+                is_consumable = self._indexjson.is_item_consumable(purchase['key'])
+                if (not is_consumable):
+                    if not ((not is_created) and item_cost < 620):
+                        if i in self.purchasestats:
+                            if item in self.purchasestats[i]:
+                                self.purchasestats[i][item] += 1
+                            else:
+                                self.purchasestats[i][item] = 1
+                        else:
+                            self.purchasestats[i] = {item: 1}
+                        i += 1;
 
     def add_lastneutralitems(self, neutral_item):
         if neutral_item != 0:
