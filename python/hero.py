@@ -208,12 +208,12 @@ class Hero:
             else:
                 self.purchasestats[i] = {item: 1}
 
-    def add_lastneutralitems(self, neutralitems):
-        for item in neutralitems:
-            if item in self.lastneutralitems:
-                self.lastneutralitems[item] += 1
+    def add_lastneutralitems(self, neutral_item):
+        if neutral_item != 0:
+            if neutral_item in self.lastneutralitems:
+                self.lastneutralitems[neutral_item] += 1
             else:
-                self.lastneutralitems[item] = 1
+                self.lastneutralitems[neutral_item] = 1
 
     def get_pickbans(self, order):
         return self.pickbans[str(order)]

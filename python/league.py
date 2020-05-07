@@ -165,9 +165,9 @@ class League:
     def _add_hero_lastneutralitems(self, matchid):
         opendotajson = self._opendotajson
         lastneutralitems = opendotajson.get_match_lastneutralitems(matchid)
-        for heroid, newutralitems in lastneutralitems.items():
+        for heroid, neutral_item in lastneutralitems.items():
             if not isinstance(heroid, type(None)):
-                self._herojson[str(heroid)].add_lastneutralitems(lastneutralitems)
+                self._herojson[str(heroid)].add_lastneutralitems(neutral_item)
 
     def _add_hero_is_win(self, matchid):
         is_win_dict = self._opendotajson.get_match_is_win(matchid)
