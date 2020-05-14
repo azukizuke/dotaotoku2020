@@ -1,9 +1,3 @@
-import re
-import copy
-import json
-import traceback
-
-
 class Hero:
     def __init__(self, heroid, name, indexjson):
         # other class
@@ -49,7 +43,7 @@ class Hero:
         return imagefile
 
     def _init_pickbans(self):
-        for k, v in self._indexjson.pickbans.items():
+        for k in self._indexjson.pickbans.keys():
             self.pickbans[k] = 0
 
     def add_abilities(self, ability_upgrades_arr):
@@ -84,7 +78,6 @@ class Hero:
 
     def init_ability_ids(self):
         abilities = self._indexjson.opendota_hero_abilities
-        ability_ids = self._indexjson.opendota_ability_ids
         for ability in abilities[self.name]['abilities']:
             ability_id = self._indexjson.get_ability_id(ability)
             self.ability_ids.append(ability_id)
@@ -117,10 +110,8 @@ class Hero:
             for order in delete_order_arr:
                 self.ability_ids_order.pop(order)
 
-
     def init_talent_ids(self):
         abilities = self._indexjson.opendota_hero_abilities
-        ability_ids = self._indexjson.opendota_ability_ids
         for value in abilities[self.name]['talents']:
             ability_id = self._indexjson.get_ability_id(value['name'])
             level = value['level']
@@ -138,7 +129,7 @@ class Hero:
                     self.talentstats[level] = {talent_id: 0}
 
     def _init_role(self):
-        for k, v in self._indexjson.role_index.items():
+        for k in self._indexjson.role_index.keys():
             self.hero_role[k] = self._indexjson.hero_role[self.heroid][k]
 
     def add_pickbans(self, order):
@@ -199,12 +190,13 @@ class Hero:
 
     def add_purchaselog(self, purchaselog):
         i = 0
+        index_json = self._indexjson
         for purchase in purchaselog:
             if purchase['time'] >= 0:
                 item = self._indexjson.get_item_id(purchase['key'])
                 item_cost = self._indexjson.get_item_cost(purchase['key'])
                 is_created = self._indexjson.is_item_created(purchase['key'])
-                is_consumable = self._indexjson.is_item_consumable(purchase['key'])
+                is_consumable = index_json.is_item_consumable(purchase['key'])
                 if (not is_consumable):
                     if not ((not is_created) and item_cost < 620):
                         if i in self.purchasestats:
@@ -214,7 +206,7 @@ class Hero:
                                 self.purchasestats[i][item] = 1
                         else:
                             self.purchasestats[i] = {item: 1}
-                        i += 1;
+                        i += 1
 
     def add_lastneutralitems(self, neutral_item):
         if neutral_item != 0:
