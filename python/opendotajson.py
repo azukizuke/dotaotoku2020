@@ -87,7 +87,10 @@ class OpendotaJson:
         return (self._steamjson.get_last_unixdate())
 
     def get_leaguename(self):
-        return (self.details[next(iter(self.details))]['league']['name'])
+        detail = self.details[next(iter(self.details))]
+        if 'league' in detail:
+            return (self.details[next(iter(self.details))]['league']['name'])
+        return self._leagueid
 
     def get_match_skillstats(self, matchid):
         skillstats = {}
@@ -195,7 +198,14 @@ class OpendotaJson:
                 raise
 
         sorted_ranking = sorted(lasthit.items(), key=lambda x: x[1])
-        return [sorted_ranking[0][0], sorted_ranking[1][0]]
+        try:
+            if len(sorted_ranking) == 0:
+                return []
+            return [sorted_ranking[0][0], sorted_ranking[1][0]]
+        except IndexError:
+            print("---IndexError")
+            print("---sorted_ranking",sorted_ranking)
+            raise
 
     def _get_teamplayers(self, players, isRadiant):
         team_players = []
