@@ -16,36 +16,36 @@
 	    "type" : "ban1"
     },
     "4" : {
-        "is_pick" : false,
-	    "type" : "ban1"
+        "is_pick" : true,
+	    "type" : "pick1"
     },
     "5" : {
-        "is_pick" : false,
-	    "type" : "ban1"
+        "is_pick" : true,
+	    "type" : "pick1"
     },
     "6" : {
-        "is_pick" : false,
-	    "type" : "ban1"
+        "is_pick" : true,
+	    "type" : "pick1"
     },
     "7" : {
-        "is_pick" : false,
-	    "type" : "ban1"
+        "is_pick" : true,
+	    "type" : "pick1"
     },
     "8" : {
-        "is_pick" : true,
-	    "type" : "pick1"
+        "is_pick" : false,
+	    "type" : "ban2"
     },
     "9" : {
-        "is_pick" : true,
-	    "type" : "pick1"
+        "is_pick" : false,
+	    "type" : "ban2"
     },
     "10" : {
-        "is_pick" : true,
-	    "type" : "pick1"
+        "is_pick" : false,
+	    "type" : "ban2"
     },
     "11" : {
-        "is_pick" : true,
-	    "type" : "pick1"
+        "is_pick" : false,
+	    "type" : "ban2"
     },
     "12" : {
         "is_pick" : false,
@@ -80,10 +80,18 @@
 	    "type" : "ban3"
     },
     "20" : {
+        "is_pick" : false,
+	    "type" : "ban3"
+    },
+    "21" : {
+        "is_pick" : false,
+	    "type" : "ban3"
+    },
+    "22" : {
         "is_pick" : true,
 	    "type" : "pick3"
     },
-    "21" : {
+    "23" : {
         "is_pick" : true,
 	    "type" : "pick3"
     },
