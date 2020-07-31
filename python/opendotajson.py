@@ -189,7 +189,10 @@ class OpendotaJson:
             try:
                 if not isinstance(player['lh_t'], type(None)):
                     heroid = player['hero_id']
-                    lh = player['lh_t'][10]
+                    if len(player['lh_t']) > 11:
+                        lh = player['lh_t'][10]
+                    else:
+                        lh = player['lh_t'][-1]
                     lasthit[heroid] = lh
             except TypeError:
                 print("---TypeError---")
