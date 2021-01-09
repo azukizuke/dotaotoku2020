@@ -811,6 +811,13 @@
       "pos4" : false,
       "pos5" : true
   },
+  "123": {
+      "pos1" : false,
+      "pos2" : true,
+      "pos3" : false,
+      "pos4" : true,
+      "pos5" : false
+  },
   "126": {
       "pos1" : false,
       "pos2" : true,

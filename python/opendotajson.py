@@ -181,6 +181,8 @@ class OpendotaJson:
         sorted_ranking = sorted(sentry_ranking.items(),
                                 reverse=True,
                                 key=lambda x: x[1])
+        if isinstance(sorted_ranking, type(None)):
+            return None
         return sorted_ranking[0][0]
 
     def _get_supports(self, players):
