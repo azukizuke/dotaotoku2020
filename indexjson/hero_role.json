@@ -1,4 +1,11 @@
 {
+  "0": {
+      "pos1" : false,
+      "pos2" : false,
+      "pos3" : false,
+      "pos4" : false,
+      "pos5" : false
+  },
   "1": {
       "pos1" : true,
       "pos2" : false,
