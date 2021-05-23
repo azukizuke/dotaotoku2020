@@ -82,6 +82,8 @@ class IndexJson:
     def is_talent(self, abilityid):
         abilityname = self.get_ability_name(abilityid)
         try:
+            if abilityname is None:
+                return False
             if re.match(r'^special_bonus_.*', abilityname):
                 return True
             else:
