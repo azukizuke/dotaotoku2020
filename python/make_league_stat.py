@@ -67,7 +67,7 @@ if __name__ == "__main__":
                                     startid,
                                     end_id,
                                     league_folder)
-    steamjson.write_json(league_folder)
+    steamjson.write_json(league_folder) ############ ここ手動でいじるとき
     is_matchlist_not_change = steamjson.is_matchlist_not_change(league_folder)
     if is_matchlist_not_change:
         print("matchlist is not change, make opendota in local file")
